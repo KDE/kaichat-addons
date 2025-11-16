@@ -1,0 +1,8 @@
+{
+    "KPlugin": {
+        "Description": "This tool plugin allows to get weather.",
+        "EnabledByDefault": true,
+        "Name": "Tool Weather Plugin",
+        "Version": "1.0"
+    }
+}
