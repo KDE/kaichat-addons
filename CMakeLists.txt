@@ -93,6 +93,8 @@ if(USE_UNITY_CMAKE_SUPPORT)
     set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
 endif()
 
+add_subdirectory(weather)
+
 file(
     GLOB_RECURSE ALL_SOURCE_FILES
 )
