@@ -11,17 +11,9 @@ set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 
 set(ECM_VERSION ${KF_MIN_VERSION})
 find_package(ECM ${ECM_VERSION} REQUIRED NO_MODULE)
-set(CMAKE_MODULE_PATH
-    ${CMAKE_MODULE_PATH}
-    ${ECM_MODULE_PATH}
-)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
 include(FeatureSummary)
-file(
-    GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES
-    *.cpp
-    *.h
-    *.c
-)
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.c)
 
 set(PRE_COMMIT_INSTALLED FALSE)
 if(${CMAKE_SOURCE_DIR} STREQUAL ${PROJECT_SOURCE_DIR})
@@ -53,25 +45,18 @@ include(ECMCheckOutboundLicense)
 set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.8.66")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS CoreAddons Config I18n)
 find_package(
-    KF6
-    ${KF_MIN_VERSION}
-    REQUIRED
-    COMPONENTS
-        CoreAddons
-        Config
-        I18n
+    KF6TextAutoGenerateText
+    ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION}
+    CONFIG
 )
-find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
 set_package_properties(
     KF6TextAutoGenerateText
     PROPERTIES
-        TYPE
-            REQUIRED
-        PURPOSE
-            "Required for building AI plugins support"
-        DESCRIPTION
-            "Use AI plugin"
+        TYPE REQUIRED
+        PURPOSE "Required for building AI plugins support"
+        DESCRIPTION "Use AI plugin"
 )
 
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
@@ -86,18 +71,24 @@ if(BUILD_TESTING)
     add_definitions(-DBUILD_TESTING)
 endif()
 
-option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
+option(
+    USE_UNITY_CMAKE_SUPPORT
+    "Use UNITY cmake support (speedup compile time)"
+    OFF
+)
 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
 if(USE_UNITY_CMAKE_SUPPORT)
     set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
 endif()
 
-add_subdirectory(weather)
+find_package(KWeatherCore)
 
-file(
-    GLOB_RECURSE ALL_SOURCE_FILES
-)
+if(TARGET KWeatherCore)
+    add_subdirectory(weather)
+endif()
+
+file(GLOB_RECURSE ALL_SOURCE_FILES)
 ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
 
 if(DEFINED kde_configure_git_pre_commit_hook)
