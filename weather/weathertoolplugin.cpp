@@ -27,14 +27,12 @@ WeatherToolPlugin::~WeatherToolPlugin() = default;
 
 QString WeatherToolPlugin::displayName() const
 {
-    // Don't translate it
-    return u"Ask Weather Report"_s;
+    return i18n("Ask Weather Report");
 }
 
 QString WeatherToolPlugin::description() const
 {
-    // Don't translate it
-    return u"Use this tools, only on meteo. Get the current weather for a city"_s;
+    return i18n("Use this tools, only on meteo. Get the current weather for a city");
 }
 
 void WeatherToolPlugin::showConfigureDialog(QWidget *parent)
