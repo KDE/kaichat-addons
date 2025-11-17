@@ -8,12 +8,12 @@
 
 #include <QVariant>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPlugin>
-class WeatherToolPlugin : public TextAutoGenerateText::TextAutoGenerateTextToolPlugin
+class WikipediaToolPlugin : public TextAutoGenerateText::TextAutoGenerateTextToolPlugin
 {
     Q_OBJECT
 public:
-    explicit WeatherToolPlugin(QObject *parent = nullptr, const QVariantList & = {});
-    ~WeatherToolPlugin() override;
+    explicit WikipediaToolPlugin(QObject *parent = nullptr, const QVariantList & = {});
+    ~WikipediaToolPlugin() override;
 
     [[nodiscard]] QString displayName() const override;
     [[nodiscard]] QString description() const override;

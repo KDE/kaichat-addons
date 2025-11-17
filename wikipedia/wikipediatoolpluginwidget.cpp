@@ -3,11 +3,11 @@
 
   SPDX-License-Identifier: GPL-2.0-or-later
 */
-#include "weathertoolpluginwidget.h"
+#include "wikipediatoolpluginwidget.h"
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateToolPluginConfigureWidget>
 using namespace Qt::Literals::StringLiterals;
-WeatherToolPluginWidget::WeatherToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
+WikipediaToolPluginWidget::WikipediaToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
     : QWidget{parent}
     , mConfigureWidget(new TextAutoGenerateText::TextAutoGenerateToolPluginConfigureWidget(plugin, this))
 {
@@ -20,6 +20,6 @@ WeatherToolPluginWidget::WeatherToolPluginWidget(TextAutoGenerateText::TextAutoG
     mainLayout->addStretch(1);
 }
 
-WeatherToolPluginWidget::~WeatherToolPluginWidget() = default;
+WikipediaToolPluginWidget::~WikipediaToolPluginWidget() = default;
 
-#include "moc_weathertoolpluginwidget.cpp"
+#include "moc_wikipediatoolpluginwidget.cpp"

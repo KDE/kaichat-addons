@@ -10,12 +10,12 @@ namespace TextAutoGenerateText
 class TextAutoGenerateToolPluginConfigureWidget;
 class TextAutoGenerateTextToolPlugin;
 }
-class WeatherToolPluginWidget : public QWidget
+class WikipediaToolPluginWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit WeatherToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent = nullptr);
-    ~WeatherToolPluginWidget() override;
+    explicit WikipediaToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent = nullptr);
+    ~WikipediaToolPluginWidget() override;
 
 private:
     TextAutoGenerateText::TextAutoGenerateToolPluginConfigureWidget *const mConfigureWidget;

@@ -3,15 +3,15 @@
 
   SPDX-License-Identifier: GPL-2.0-or-later
 */
-#include "weathertoolplugindialog.h"
-#include "weathertoolpluginwidget.h"
+#include "wikipediatoolplugindialog.h"
+#include "wikipediatoolpluginwidget.h"
 #include <QBoxLayout>
 #include <QDialogButtonBox>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPlugin>
 using namespace Qt::Literals::StringLiterals;
-WeatherToolPluginDialog::WeatherToolPluginDialog(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
+WikipediaToolPluginDialog::WikipediaToolPluginDialog(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
     : QDialog(parent)
-    , mExampleTextToolPluginWidget(new WeatherToolPluginWidget(plugin, this))
+    , mWikipediaToolPluginWidget(new WikipediaToolPluginWidget(plugin, this))
 {
     // don't translate here.
     setWindowTitle(plugin ? plugin->displayName() : u"Example Text Tool"_s);
@@ -19,15 +19,15 @@ WeatherToolPluginDialog::WeatherToolPluginDialog(TextAutoGenerateText::TextAutoG
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
 
-    mExampleTextToolPluginWidget->setObjectName(u"mExampleTextToolPluginWidget"_s);
-    mainLayout->addWidget(mExampleTextToolPluginWidget);
+    mWikipediaToolPluginWidget->setObjectName(u"mWikipediaToolPluginWidget"_s);
+    mainLayout->addWidget(mWikipediaToolPluginWidget);
 
     auto button = new QDialogButtonBox(QDialogButtonBox::Close, this);
     button->setObjectName(u"button"_s);
     mainLayout->addWidget(button);
-    connect(button, &QDialogButtonBox::rejected, this, &WeatherToolPluginDialog::reject);
+    connect(button, &QDialogButtonBox::rejected, this, &WikipediaToolPluginDialog::reject);
 }
 
-WeatherToolPluginDialog::~WeatherToolPluginDialog() = default;
+WikipediaToolPluginDialog::~WikipediaToolPluginDialog() = default;
 
-#include "moc_weathertoolplugindialog.cpp"
+#include "moc_wikipediatoolplugindialog.cpp"

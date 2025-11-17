@@ -8,14 +8,14 @@ kcoreaddons_add_plugin(textautogeneratetext_wikipediatoolplugin INSTALL_NAMESPAC
 target_sources(
     textautogeneratetext_wikipediatoolplugin
     PRIVATE
-        weathertoolplugin.h
-        weathertoolplugin.cpp
-        weathertoolplugindialog.h
-        weathertoolplugindialog.cpp
-        weathertoolpluginwidget.h
-        weathertoolpluginwidget.cpp
-        weathertoolpluginjob.h
-        weathertoolpluginjob.cpp
+        wikipediatoolplugin.h
+        wikipediatoolplugin.cpp
+        wikipediatoolplugindialog.h
+        wikipediatoolplugindialog.cpp
+        wikipediatoolpluginwidget.h
+        wikipediatoolpluginwidget.cpp
+        wikipediatoolpluginjob.h
+        wikipediatoolpluginjob.cpp
 )
 target_link_libraries(
     textautogeneratetext_wikipediatoolplugin

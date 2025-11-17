@@ -6,12 +6,12 @@
 #pragma once
 #include <QObject>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPluginJob>
-class WeatherToolPluginJob : public TextAutoGenerateText::TextAutoGenerateTextToolPluginJob
+class WikipediaToolPluginJob : public TextAutoGenerateText::TextAutoGenerateTextToolPluginJob
 {
     Q_OBJECT
 public:
-    explicit WeatherToolPluginJob(QObject *parent = nullptr);
-    ~WeatherToolPluginJob() override;
+    explicit WikipediaToolPluginJob(QObject *parent = nullptr);
+    ~WikipediaToolPluginJob() override;
 
     void start() override;
 };

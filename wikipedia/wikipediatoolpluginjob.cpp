@@ -4,21 +4,21 @@
   SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#include "weathertoolpluginjob.h"
+#include "wikipediatoolpluginjob.h"
 #include <QDebug>
 using namespace Qt::Literals::StringLiterals;
-WeatherToolPluginJob::WeatherToolPluginJob(QObject *parent)
+WikipediaToolPluginJob::WikipediaToolPluginJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateTextToolPluginJob{parent}
 {
 }
 
-WeatherToolPluginJob::~WeatherToolPluginJob() = default;
+WikipediaToolPluginJob::~WikipediaToolPluginJob() = default;
 
-void WeatherToolPluginJob::start()
+void WikipediaToolPluginJob::start()
 {
-    qDebug() << " void WeatherToolPluginJob::start() ";
+    qDebug() << " void WikipediaToolPluginJob::start() ";
     if (!canStart()) {
-        qWarning() << " Impossible to start WeatherToolPluginJob" << *this;
+        qWarning() << " Impossible to start WikipediaToolPluginJob" << *this;
         deleteLater();
         return;
     }
@@ -45,4 +45,4 @@ void WeatherToolPluginJob::start()
     deleteLater();
 }
 
-#include "moc_weathertoolpluginjob.cpp"
+#include "moc_wikipediatoolpluginjob.cpp"
