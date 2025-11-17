@@ -5,6 +5,9 @@
 */
 
 #include "weathertoolpluginjob.h"
+#include "weather_tool_debug.h"
+#include <KWeatherCore/LocationQuery>
+#include <KWeatherCore/LocationQueryReply>
 #include <QDebug>
 using namespace Qt::Literals::StringLiterals;
 WeatherToolPluginJob::WeatherToolPluginJob(QObject *parent)
@@ -16,24 +19,28 @@ WeatherToolPluginJob::~WeatherToolPluginJob() = default;
 
 void WeatherToolPluginJob::start()
 {
-    qDebug() << " void WeatherToolPluginJob::start() ";
+    qCDebug(WEATHER_TOOL_LOG) << " void WeatherToolPluginJob::start() ";
     if (!canStart()) {
-        qWarning() << " Impossible to start WeatherToolPluginJob" << *this;
+        qCWarning(WEATHER_TOOL_LOG) << " Impossible to start WeatherToolPluginJob" << *this;
         deleteLater();
         return;
     }
+    KWeatherCore::LocationQuery locationSource;
+    auto reply = locationSource.query(u"Paris"_s);
+    connect(reply, &KWeatherCore::LocationQueryReply::finished, this, [this, reply]() {
+        reply->deleteLater();
+        if (reply->error() != KWeatherCore::LocationQueryReply::NoError) {
+            qCDebug(WEATHER_TOOL_LOG) << "can't find this place";
+            deleteLater();
+            return;
+        }
+        for (auto location : reply->result()) {
+            qDebug() << location.toponymName();
+        }
+    });
+
     /*
-    // TODO Need to implement job
-    QList<TextAutoGenerateText::TextAutoGenerateAttachmentUtils::AttachmentElementInfo> attachmentInfo;
-    {
-        const TextAutoGenerateText::TextAutoGenerateAttachmentUtils::AttachmentElementInfo attInfo{
-            .mimeType = "text/plain"_ba,
-            .content = "foo bla kde"_ba,
-            .name = u"test-file1"_s,
-            .attachmentType = TextAutoGenerateText::TextAutoGenerateAttachment::AttachmentType::File,
-        };
-        attachmentInfo.append(attInfo);
-    }
+
     const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
         .content = u"Temperature is 35°"_s,
         .messageUuid = mMessageUuid,
