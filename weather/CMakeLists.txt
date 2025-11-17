@@ -20,4 +20,5 @@ target_sources(
 target_link_libraries(
     textautogeneratetext_weathertoolplugin
     KF6::TextAutoGenerateText
+    KWeatherCore
 )
