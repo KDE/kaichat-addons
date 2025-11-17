@@ -4,7 +4,7 @@ SPDX-PackageSupplier = "Laurent Montel <montel@kde.org>"
 SPDX-PackageDownloadLocation = "https://invent.kde.org/utilities/kaichat-addons"
 
 [[annotations]]
-path = ["weather/textautogeneratetext_weatherplugin.json"]
+path = ["weather/textautogeneratetext_weatherplugin.json", "wikipedia/textautogeneratetext_wikipediatoolplugin.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Laurent Montel <montel@kde.org>"
 SPDX-License-Identifier = "CC0-1.0"

@@ -1,0 +1,8 @@
+{
+    "KPlugin": {
+        "Description": "This tool plugin allows to extract wikipedia content from title.",
+        "EnabledByDefault": true,
+        "Name": "Tool Wikipedia Plugin",
+        "Version": "1.0"
+    }
+}
