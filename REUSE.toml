@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "kaichat"
+SPDX-PackageSupplier = "Laurent Montel <montel@kde.org>"
+SPDX-PackageDownloadLocation = "https://invent.kde.org/utilities/kaichat-addons"
+
+[[annotations]]
+path = ["weather/textautogeneratetext_weatherplugin.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Laurent Montel <montel@kde.org>"
+SPDX-License-Identifier = "CC0-1.0"
