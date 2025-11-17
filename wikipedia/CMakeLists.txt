@@ -5,6 +5,10 @@ add_definitions(-DTRANSLATION_DOMAIN=\"kaichat-wikipedia-tool-plugin\")
 
 kcoreaddons_add_plugin(textautogeneratetext_wikipediatoolplugin INSTALL_NAMESPACE autogeneratetext/toolplugins)
 
+ecm_qt_declare_logging_category(textautogeneratetext_wikipediatoolplugin HEADER wikipedia_tool_debug.h IDENTIFIER WIKIPEDIA_TOOL_LOG CATEGORY_NAME org.kde.kaichat.addons.wikipediaplugin
+    DESCRIPTION "KAIChat Addons Wikipedia Tool Plugin" EXPORT KAICHAT-ADDONS
+)
+
 target_sources(
     textautogeneratetext_wikipediatoolplugin
     PRIVATE
