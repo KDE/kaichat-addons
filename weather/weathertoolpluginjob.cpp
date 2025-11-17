@@ -42,7 +42,7 @@ void WeatherToolPluginJob::start()
         .attachementInfoList = attachmentInfo,
     };
     */
-    qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
+    // qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
     // TODO Q_EMIT finished(info);
     deleteLater();
 }
