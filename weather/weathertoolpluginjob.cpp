@@ -22,6 +22,7 @@ void WeatherToolPluginJob::start()
         deleteLater();
         return;
     }
+    /*
     // TODO Need to implement job
     QList<TextAutoGenerateText::TextAutoGenerateAttachmentUtils::AttachmentElementInfo> attachmentInfo;
     {
@@ -40,8 +41,9 @@ void WeatherToolPluginJob::start()
         .toolIdentifier = mToolIdentifier,
         .attachementInfoList = attachmentInfo,
     };
+    */
     qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
-    Q_EMIT finished(info);
+    // TODO Q_EMIT finished(info);
     deleteLater();
 }
 
