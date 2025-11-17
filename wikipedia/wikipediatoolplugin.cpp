@@ -14,7 +14,7 @@ using namespace Qt::Literals::StringLiterals;
 WikipediaToolPlugin::WikipediaToolPlugin(QObject *parent, const QVariantList &)
     : TextAutoGenerateTextToolPlugin{parent}
 {
-    mToolNameId = "example_tool"_ba;
+    mToolNameId = "wikipedia_tool"_ba;
     {
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The name of the city"));

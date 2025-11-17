@@ -14,7 +14,7 @@ using namespace Qt::Literals::StringLiterals;
 WeatherToolPlugin::WeatherToolPlugin(QObject *parent, const QVariantList &)
     : TextAutoGenerateTextToolPlugin{parent}
 {
-    mToolNameId = "example_tool"_ba;
+    mToolNameId = "weather_tool"_ba;
     {
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The name of the city"));
