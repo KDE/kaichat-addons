@@ -83,6 +83,10 @@ if(USE_UNITY_CMAKE_SUPPORT)
 endif()
 
 find_package(KWeatherCore)
+set_package_properties(
+    KWeatherCore
+    PROPERTIES DESCRIPTION "Add tools plugins weather plugin" TYPE OPTIONAL
+)
 
 if(TARGET KWeatherCore)
     add_subdirectory(weather)
