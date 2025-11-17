@@ -1,6 +1,8 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 
+add_definitions(-DTRANSLATION_DOMAIN=\"kaichat-weather-tool-plugin\")
+
 kcoreaddons_add_plugin(textautogeneratetext_weathertoolplugin INSTALL_NAMESPACE autogeneratetext/toolplugins)
 
 target_sources(
