@@ -26,21 +26,30 @@ void WeatherToolPluginJob::start()
         return;
     }
     Q_EMIT toolInProgress(i18n("Get Current Weather."));
-    QString result;
+    QString city;
     const QStringList lst = requiredArguments();
     for (const auto &arg : lst) {
         for (const auto &resultTool : std::as_const(mToolArguments)) {
             if (resultTool.keyTool == arg) {
                 const QString value = resultTool.value;
-                qDebug() << " CCCCCCCCCCCCC " << value;
+                if (arg == "city"_L1) {
+                    qDebug() << " CCCCCCCCCCCCC " << value;
+                    city = value;
+                }
             }
         }
     }
-
-    KWeatherCore::LocationQuery locationSource;
-    auto reply = locationSource.query(u"Paris"_s);
+    if (city.isEmpty()) {
+        Q_EMIT finished({});
+        deleteLater();
+        return;
+    }
+    KWeatherCore::LocationQuery *locationSource = new KWeatherCore::LocationQuery(this);
+    auto reply = locationSource->query(city);
+    qDebug() << " 1111111111111111111111111111111111";
     connect(reply, &KWeatherCore::LocationQueryReply::finished, this, [this, reply]() {
         reply->deleteLater();
+        qDebug() << "END" << reply->error();
         if (reply->error() != KWeatherCore::LocationQueryReply::NoError) {
             qCDebug(WEATHER_TOOL_LOG) << "can't find this place";
             deleteLater();
@@ -49,8 +58,10 @@ void WeatherToolPluginJob::start()
         for (auto location : reply->result()) {
             qDebug() << location.toponymName();
         }
+        Q_EMIT finished({});
+        deleteLater();
     });
-
+    qDebug() << " CCCCCCCCCCCCC";
     /*
 
     const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
@@ -63,7 +74,7 @@ void WeatherToolPluginJob::start()
     */
     // qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
     // TODO Q_EMIT finished(info);
-    deleteLater();
+    // deleteLater();
 }
 
 #include "moc_weathertoolpluginjob.cpp"
