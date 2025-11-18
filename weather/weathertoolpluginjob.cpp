@@ -8,6 +8,7 @@
 #include "weather_tool_debug.h"
 #include <KWeatherCore/LocationQuery>
 #include <KWeatherCore/LocationQueryReply>
+#include <KWeatherCore/WeatherForecastSource>
 #include <QDebug>
 using namespace Qt::Literals::StringLiterals;
 WeatherToolPluginJob::WeatherToolPluginJob(QObject *parent)
@@ -55,26 +56,38 @@ void WeatherToolPluginJob::start()
             deleteLater();
             return;
         }
+
+        const auto result = reply->result();
+        if (!result.empty()) {
+            getWeatherFromCity(result.front());
+        } else {
+            const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
+                .content = {},
+                .messageUuid = mMessageUuid,
+                .chatId = mChatId,
+                .toolIdentifier = mToolIdentifier,
+                .attachementInfoList = {},
+            };
+            Q_EMIT finished(info);
+            deleteLater();
+        }
+
         for (auto location : reply->result()) {
             qDebug() << location.toponymName();
         }
+    });
+}
+
+void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryResult &city)
+{
+    auto weatherForecastSource = new KWeatherCore::WeatherForecastSource(this);
+    KWeatherCore::PendingWeatherForecast *reply = weatherForecastSource->requestData(city);
+    connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply]() {
+        const auto result = reply->value();
+        qDebug() << " result " << result.dailyWeatherForecast().front().weatherDescription();
         Q_EMIT finished({});
         deleteLater();
     });
-    qDebug() << " CCCCCCCCCCCCC";
-    /*
-
-    const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
-        .content = u"Temperature is 35°"_s,
-        .messageUuid = mMessageUuid,
-        .chatId = mChatId,
-        .toolIdentifier = mToolIdentifier,
-        .attachementInfoList = attachmentInfo,
-    };
-    */
-    // qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
-    // TODO Q_EMIT finished(info);
-    // deleteLater();
 }
 
 #include "moc_weathertoolpluginjob.cpp"
