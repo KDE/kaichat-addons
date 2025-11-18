@@ -17,8 +17,8 @@ WikipediaToolPlugin::WikipediaToolPlugin(QObject *parent, const QVariantList &)
     mToolNameId = "wikipedia_tool"_ba;
     {
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
-        prop.setDescription(kli18n("The name of the city"));
-        prop.setName(u"city"_s);
+        prop.setDescription(kli18n("The name of wikipedia title."));
+        prop.setName(u"title"_s);
         mProperties.append(prop);
     }
 }
