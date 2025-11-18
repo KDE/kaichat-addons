@@ -85,7 +85,17 @@ void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryR
     connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply]() {
         const auto result = reply->value();
         qDebug() << " result " << result.dailyWeatherForecast().front().weatherDescription();
-        Q_EMIT finished({});
+
+        // TODO create correct i18n
+        const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
+            .content = result.dailyWeatherForecast().front().weatherDescription(),
+            .messageUuid = mMessageUuid,
+            .chatId = mChatId,
+            .toolIdentifier = mToolIdentifier,
+            .attachementInfoList = {},
+        };
+
+        Q_EMIT finished(info);
         deleteLater();
     });
 }
