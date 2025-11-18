@@ -27,12 +27,12 @@ WikipediaToolPlugin::~WikipediaToolPlugin() = default;
 
 QString WikipediaToolPlugin::displayName() const
 {
-    return i18n("Ask Weather Report");
+    return i18n("Ask Wikipedia Page from Title");
 }
 
 QString WikipediaToolPlugin::description() const
 {
-    return i18n("Use this tools, only on meteo. Get the current weather for a city");
+    return i18n("Use this tools for getting wikipedia page from title.");
 }
 
 void WikipediaToolPlugin::showConfigureDialog(QWidget *parent)
