@@ -25,6 +25,18 @@ void WeatherToolPluginJob::start()
         deleteLater();
         return;
     }
+    Q_EMIT toolInProgress(i18n("Get Current Weather."));
+    QString result;
+    const QStringList lst = requiredArguments();
+    for (const auto &arg : lst) {
+        for (const auto &resultTool : std::as_const(mToolArguments)) {
+            if (resultTool.keyTool == arg) {
+                const QString value = resultTool.value;
+                qDebug() << " CCCCCCCCCCCCC " << value;
+            }
+        }
+    }
+
     KWeatherCore::LocationQuery locationSource;
     auto reply = locationSource.query(u"Paris"_s);
     connect(reply, &KWeatherCore::LocationQueryReply::finished, this, [this, reply]() {
