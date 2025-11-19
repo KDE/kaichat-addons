@@ -7,6 +7,7 @@
 #include "weathertoolplugin.h"
 #include "weathertoolplugindialog.h"
 #include "weathertoolpluginjob.h"
+#include "weathertoolpluginutils.h"
 #include <KPluginFactory>
 K_PLUGIN_CLASS_WITH_JSON(WeatherToolPlugin, "textautogeneratetext_weatherplugin.json")
 
@@ -19,6 +20,11 @@ WeatherToolPlugin::WeatherToolPlugin(QObject *parent, const QVariantList &)
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The name of the city"));
         prop.setName(u"city"_s);
+        prop.setTypeElements({
+            WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Full),
+            WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Temperature),
+        });
+
         mProperties.append(prop);
     }
 }
