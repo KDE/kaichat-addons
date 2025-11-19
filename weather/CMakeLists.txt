@@ -20,6 +20,8 @@ target_sources(
         weathertoolpluginwidget.cpp
         weathertoolpluginjob.h
         weathertoolpluginjob.cpp
+        weathertoolpluginutils.h
+        weathertoolpluginutils.cpp
 )
 target_link_libraries(
     textautogeneratetext_weathertoolplugin
