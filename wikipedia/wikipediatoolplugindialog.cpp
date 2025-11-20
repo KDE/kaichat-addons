@@ -13,7 +13,7 @@ WikipediaToolPluginDialog::WikipediaToolPluginDialog(TextAutoGenerateText::TextA
     : QDialog(parent)
     , mWikipediaToolPluginWidget(new WikipediaToolPluginWidget(plugin, this))
 {
-    setWindowTitle(plugin ? plugin->displayName() : u"Configure Wikipedia Tool Plugin"_s);
+    setWindowTitle(plugin ? plugin->displayName() : i18n("Configure Wikipedia Tool Plugin"));
 
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);

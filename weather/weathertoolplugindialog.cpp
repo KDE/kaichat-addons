@@ -13,7 +13,7 @@ WeatherToolPluginDialog::WeatherToolPluginDialog(TextAutoGenerateText::TextAutoG
     : QDialog(parent)
     , mExampleTextToolPluginWidget(new WeatherToolPluginWidget(plugin, this))
 {
-    setWindowTitle(plugin ? plugin->displayName() : u"Configure Weather Tool Plugin"_s);
+    setWindowTitle(plugin ? plugin->displayName() : i18n("Configure Weather Tool Plugin"));
 
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
