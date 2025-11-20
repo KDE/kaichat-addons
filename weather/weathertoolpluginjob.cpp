@@ -35,7 +35,7 @@ void WeatherToolPluginJob::start()
                 const QString value = resultTool.value;
                 if (arg == "city"_L1) {
                     city = value;
-                    qCWarning(WEATHER_TOOL_LOG) << "City: " << city;
+                    qCDebug(WEATHER_TOOL_LOG) << "City: " << city;
                 }
             }
         }
