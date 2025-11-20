@@ -34,23 +34,28 @@ void WeatherToolPluginJob::start()
             if (resultTool.keyTool == arg) {
                 const QString value = resultTool.value;
                 if (arg == "city"_L1) {
-                    qDebug() << " CCCCCCCCCCCCC " << value;
                     city = value;
+                    qCWarning(WEATHER_TOOL_LOG) << "City: " << city;
                 }
             }
         }
     }
     if (city.isEmpty()) {
-        Q_EMIT finished({});
+        const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
+            .content = i18n("No weather found for %1", city),
+            .messageUuid = mMessageUuid,
+            .chatId = mChatId,
+            .toolIdentifier = mToolIdentifier,
+            .attachementInfoList = {},
+        };
+        Q_EMIT finished(info);
         deleteLater();
         return;
     }
     KWeatherCore::LocationQuery *locationSource = new KWeatherCore::LocationQuery(this);
     auto reply = locationSource->query(city);
-    qDebug() << " 1111111111111111111111111111111111";
     connect(reply, &KWeatherCore::LocationQueryReply::finished, this, [this, reply]() {
         reply->deleteLater();
-        qDebug() << "END" << reply->error();
         if (reply->error() != KWeatherCore::LocationQueryReply::NoError) {
             qCDebug(WEATHER_TOOL_LOG) << "can't find this place";
             deleteLater();
@@ -72,9 +77,9 @@ void WeatherToolPluginJob::start()
             deleteLater();
         }
 
-        for (auto location : reply->result()) {
-            qDebug() << location.toponymName();
-        }
+        // for (auto location : reply->result()) {
+        //     qDebug() << location.toponymName();
+        // }
     });
 }
 
