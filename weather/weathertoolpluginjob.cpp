@@ -42,7 +42,7 @@ void WeatherToolPluginJob::start()
     }
     if (city.isEmpty()) {
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
-            .content = i18n("No weather found for %1", city),
+            .content = i18n("No city found."),
             .messageUuid = mMessageUuid,
             .chatId = mChatId,
             .toolIdentifier = mToolIdentifier,
