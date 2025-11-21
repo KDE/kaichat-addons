@@ -1,0 +1,48 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the kaichat-addons package.
+#
+# SPDX-FileCopyrightText: 2025 Emir SARI <emir_sari@îcloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"PO-Revision-Date: 2025-11-20 21:44+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#: wikipediatoolplugin.cpp:20
+msgid "The name of wikipedia title."
+msgstr "Vikipedi başlığının adı"
+
+#: wikipediatoolplugin.cpp:30
+#, kde-format
+msgid "Ask Wikipedia Page from Title"
+msgstr "Başlıktan Vikipedi Sayfasını Al"
+
+#: wikipediatoolplugin.cpp:35
+#, kde-format
+msgid "Use this tools for getting wikipedia page from title."
+msgstr "Başlıktan Vikiperi sayfasını almak için bu araçları kullanın."
+
+#: wikipediatoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Wikipedia Tool Plugin"
+msgstr ""
+
+#: wikipediatoolpluginjob.cpp:27
+#, fuzzy, kde-format
+#| msgid "Ask Wikipedia Page from Title"
+msgid "Get Wikipedia Page."
+msgstr "Başlıktan Vikipedi Sayfasını Al"
+
+#: wikipediatoolpluginjob.cpp:44
+#, kde-format
+msgid "No title found"
+msgstr ""

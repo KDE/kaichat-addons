@@ -1,0 +1,51 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kaichat-addons package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"PO-Revision-Date: 2025-11-20 21:39+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: wikipediatoolplugin.cpp:20
+msgid "The name of wikipedia title."
+msgstr "Назва сторінки Вікіпедії."
+
+#: wikipediatoolplugin.cpp:30
+#, kde-format
+msgid "Ask Wikipedia Page from Title"
+msgstr "Отримати сторінку Вікіпедії за заголовком"
+
+#: wikipediatoolplugin.cpp:35
+#, kde-format
+msgid "Use this tools for getting wikipedia page from title."
+msgstr ""
+"Скористатися цим інструментом для отримання даних сторінки Вікіпедії за "
+"заголовком."
+
+#: wikipediatoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Wikipedia Tool Plugin"
+msgstr ""
+
+#: wikipediatoolpluginjob.cpp:27
+#, fuzzy, kde-format
+#| msgid "Ask Wikipedia Page from Title"
+msgid "Get Wikipedia Page."
+msgstr "Отримати сторінку Вікіпедії за заголовком"
+
+#: wikipediatoolpluginjob.cpp:44
+#, kde-format
+msgid "No title found"
+msgstr ""

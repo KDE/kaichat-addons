@@ -1,0 +1,52 @@
+# Translation of kaichat-wikipedia-tool-plugin.po to Catalan
+# Copyright (C) 2025 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# SPDX-FileCopyrightText: 2025 Josep M. Ferrer <txemaq@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"PO-Revision-Date: 2025-11-20 10:30+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
+
+#: wikipediatoolplugin.cpp:20
+msgid "The name of wikipedia title."
+msgstr "El nom del títol de la Viquipèdia."
+
+#: wikipediatoolplugin.cpp:30
+#, kde-format
+msgid "Ask Wikipedia Page from Title"
+msgstr "Demaneu la pàgina de la Viquipèdia a partir d'un títol"
+
+#: wikipediatoolplugin.cpp:35
+#, kde-format
+msgid "Use this tools for getting wikipedia page from title."
+msgstr ""
+"Utilitzeu aquestes eines per a obtenir una pàgina de la Viquipèdia a partir "
+"d'un títol."
+
+#: wikipediatoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Wikipedia Tool Plugin"
+msgstr ""
+
+#: wikipediatoolpluginjob.cpp:27
+#, fuzzy, kde-format
+#| msgid "Ask Wikipedia Page from Title"
+msgid "Get Wikipedia Page."
+msgstr "Demaneu la pàgina de la Viquipèdia a partir d'un títol"
+
+#: wikipediatoolpluginjob.cpp:44
+#, kde-format
+msgid "No title found"
+msgstr ""
