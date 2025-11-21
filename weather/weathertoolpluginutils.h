@@ -15,6 +15,14 @@ enum WeatherEnum : int8_t {
     // TODO add more
 };
 
+enum PropertyNameEnum : int8_t {
+    City = 0,
+    WeatherInfo,
+};
+
 [[nodiscard]] QString convertWeatherEnumToString(WeatherToolPluginUtils::WeatherEnum type);
 [[nodiscard]] WeatherToolPluginUtils::WeatherEnum convertStringToWeatherEnum(const QString &str);
+
+[[nodiscard]] QString convertPropertyNameEnumToString(WeatherToolPluginUtils::PropertyNameEnum type);
+[[nodiscard]] WeatherToolPluginUtils::PropertyNameEnum convertStringToPropertyNameEnum(const QString &str);
 };
