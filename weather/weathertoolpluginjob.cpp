@@ -6,6 +6,7 @@
 
 #include "weathertoolpluginjob.h"
 #include "weather_tool_debug.h"
+#include "weathertoolpluginutils.h"
 #include <KWeatherCore/LocationQuery>
 #include <KWeatherCore/LocationQueryReply>
 #include <KWeatherCore/WeatherForecastSource>
@@ -33,9 +34,11 @@ void WeatherToolPluginJob::start()
         for (const auto &resultTool : std::as_const(mToolArguments)) {
             if (resultTool.keyTool == arg) {
                 const QString value = resultTool.value;
-                if (arg == "city"_L1) {
+                if (arg == WeatherToolPluginUtils::convertPropertyNameEnumToString(WeatherToolPluginUtils::PropertyNameEnum::City)) {
                     city = value;
                     qCDebug(WEATHER_TOOL_LOG) << "City: " << city;
+                } else if (arg == WeatherToolPluginUtils::convertPropertyNameEnumToString(WeatherToolPluginUtils::PropertyNameEnum::WeatherInfo)) {
+                    qCDebug(WEATHER_TOOL_LOG) << "weather info: " << value;
                 }
             }
         }
