@@ -20,6 +20,12 @@ WeatherToolPlugin::WeatherToolPlugin(QObject *parent, const QVariantList &)
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The name of the city"));
         prop.setName(u"city"_s);
+        mProperties.append(prop);
+    }
+    {
+        TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
+        prop.setDescription(kli18n("The information that we need"));
+        prop.setName(u"weatherinfo"_s);
         prop.setTypeElements({
             WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Full),
             WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Temperature),
