@@ -1,8 +1,18 @@
 {
     "KPlugin": {
         "Description": "This tool plugin allows to extract wikipedia content from title.",
+        "Description[ca]": "Aquesta eina permet extraure contingut de la Viquipèdia a partir d'un títol.",
+        "Description[he]": "תוסף הכלי הזה מאפשר לחלץ תוכן מוויקיפדיה לפי כותרת.",
+        "Description[pt_BR]": "Este plugin permite extrair conteúdo da Wikipédia a partir do título.",
+        "Description[tr]": "Bu araç, başlıktan Vikipedi sayfasını getirmeyi olanaklı kılar.",
+        "Description[uk]": "За допомогою цього інструменту можна отримати дані Вікіпедії за заголовком статті.",
         "EnabledByDefault": true,
         "Name": "Tool Wikipedia Plugin",
+        "Name[ca]": "Connector d'eina de la Viquipèdia",
+        "Name[he]": "תוסף כלי ויקיפדיה",
+        "Name[pt_BR]": "Configurar plugin da Wikipédia",
+        "Name[tr]": "Vikipedi Aracı Eklentisi",
+        "Name[uk]": "Інструмент «Додаток Вікіпедії»",
         "Version": "1.0"
     }
 }

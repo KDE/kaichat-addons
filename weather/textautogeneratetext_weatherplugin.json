@@ -1,8 +1,18 @@
 {
     "KPlugin": {
         "Description": "This tool plugin allows to get weather.",
+        "Description[ca]": "Aquesta eina permet veure la meteorologia.",
+        "Description[he]": "תוסף הכלי הזה מאפשר למשוך את מזג האוויר.",
+        "Description[pt_BR]": "Este plugin permite obter informações meteorológicas.",
+        "Description[tr]": "Bu araç, hava durumunu almayı olanaklı kılar.",
+        "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо погоди.",
         "EnabledByDefault": true,
         "Name": "Tool Weather Plugin",
+        "Name[ca]": "Connector d'eina de meteorologia",
+        "Name[he]": "תוסף כלי מזג אוויר",
+        "Name[pt_BR]": "Configurar plugin de clima",
+        "Name[tr]": "Hava Durumu Aracı Eklentisi",
+        "Name[uk]": "Інструмент «Додаток погоди»",
         "Version": "1.0"
     }
 }
