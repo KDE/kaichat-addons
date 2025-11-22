@@ -1,4 +1,4 @@
-# Translation of kaichat-wikipedia-tool-plugin.po to Catalan
+# Translation of kaichat-wikipedia-tool-plugin.po to Catalan (Valencian)
 # Copyright (C) 2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
@@ -12,7 +12,7 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 09:09+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca\n"
+"Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +32,7 @@ msgstr "Demaneu la pàgina de la Viquipèdia a partir d'un títol"
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr ""
-"Utilitzeu aquestes eines per a obtenir una pàgina de la Viquipèdia a partir "
+"Utilitzeu estes eines per a obtindre una pàgina de la Viquipèdia a partir "
 "d'un títol."
 
 #: wikipediatoolplugindialog.cpp:16

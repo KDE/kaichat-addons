@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"POT-Creation-Date: 2025-11-22 00:45+0000\n"
 "PO-Revision-Date: 2025-11-20 14:05+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -20,12 +20,16 @@ msgstr ""
 msgid "The name of the city"
 msgstr ""
 
-#: weathertoolplugin.cpp:36
+#: weathertoolplugin.cpp:27
+msgid "The information that we need"
+msgstr ""
+
+#: weathertoolplugin.cpp:42
 #, kde-format
 msgid "Ask Weather Report"
 msgstr ""
 
-#: weathertoolplugin.cpp:41
+#: weathertoolplugin.cpp:47
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
 msgstr ""
@@ -35,12 +39,12 @@ msgstr ""
 msgid "Configure Weather Tool Plugin"
 msgstr ""
 
-#: weathertoolpluginjob.cpp:29
+#: weathertoolpluginjob.cpp:30
 #, kde-format
 msgid "Get Current Weather."
 msgstr ""
 
-#: weathertoolpluginjob.cpp:45
+#: weathertoolpluginjob.cpp:48
 #, kde-format
 msgid "No city found."
 msgstr ""

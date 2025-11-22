@@ -1,4 +1,4 @@
-# Translation of kaichat-weather-tool-plugin.po to Catalan
+# Translation of kaichat-weather-tool-plugin.po to Catalan (Valencian)
 # Copyright (C) 2025 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
@@ -12,7 +12,7 @@ msgstr ""
 "PO-Revision-Date: 2025-11-21 09:08+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca\n"
+"Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,7 +36,7 @@ msgstr "Demana un informe meteorològic"
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
 msgstr ""
-"Utilitzeu aquestes eines, només per la meteorologia. Obteniu el temps actual "
+"Utilitzeu estes eines, només per la meteorologia. Obteniu el temps actual "
 "d'una ciutat"
 
 #: weathertoolplugindialog.cpp:16
@@ -47,7 +47,7 @@ msgstr "Configura el connector de l'eina de meteorologia"
 #: weathertoolpluginjob.cpp:30
 #, kde-format
 msgid "Get Current Weather."
-msgstr "Obtén la meteorologia actual."
+msgstr "Obtín la meteorologia actual."
 
 #: weathertoolpluginjob.cpp:48
 #, kde-format
