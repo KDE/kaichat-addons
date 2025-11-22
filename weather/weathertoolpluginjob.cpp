@@ -90,20 +90,21 @@ void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryR
     connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply, weatherInfo]() {
         const auto result = reply->value();
         qDebug() << " result " << result.dailyWeatherForecast().front().weatherDescription() << " weatherInfo " << weatherInfo;
+        QString resultStr;
         switch (weatherInfo) {
         case WeatherToolPluginUtils::WeatherEnum::Unknown:
             break;
         case WeatherToolPluginUtils::WeatherEnum::Full:
-            // TODO
+            resultStr = i18n("The weather is %1", result.dailyWeatherForecast().front().weatherDescription());
             break;
         case WeatherToolPluginUtils::WeatherEnum::Temperature:
-            // TODO
+            resultStr = i18n("The temperature will be between %1°C and %2°C.",
+                             result.dailyWeatherForecast().front().minTemp(),
+                             result.dailyWeatherForecast().front().maxTemp());
             break;
         }
-
-        // TODO create correct i18n
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
-            .content = result.dailyWeatherForecast().front().weatherDescription(),
+            .content = resultStr,
             .messageUuid = mMessageUuid,
             .chatId = mChatId,
             .toolIdentifier = mToolIdentifier,
