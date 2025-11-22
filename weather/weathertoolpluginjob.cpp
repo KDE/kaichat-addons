@@ -29,6 +29,7 @@ void WeatherToolPluginJob::start()
     }
     Q_EMIT toolInProgress(i18n("Get Current Weather."));
     QString city;
+    WeatherToolPluginUtils::WeatherEnum weatherInfo = WeatherToolPluginUtils::WeatherEnum::Unknown;
     const QStringList lst = requiredArguments();
     for (const auto &arg : lst) {
         for (const auto &resultTool : std::as_const(mToolArguments)) {
@@ -38,12 +39,13 @@ void WeatherToolPluginJob::start()
                     city = value;
                     qCDebug(WEATHER_TOOL_LOG) << "City: " << city;
                 } else if (arg == WeatherToolPluginUtils::convertPropertyNameEnumToString(WeatherToolPluginUtils::PropertyNameEnum::WeatherInfo)) {
-                    qCDebug(WEATHER_TOOL_LOG) << "weather info: " << value;
+                    weatherInfo = WeatherToolPluginUtils::convertStringToWeatherEnum(value);
+                    qCDebug(WEATHER_TOOL_LOG) << "weather info: " << value << " weatherInfo " << weatherInfo;
                 }
             }
         }
     }
-    if (city.isEmpty()) {
+    if (city.isEmpty() || (weatherInfo == WeatherToolPluginUtils::WeatherEnum::Unknown)) {
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
             .content = i18n("No city found."),
             .messageUuid = mMessageUuid,
@@ -57,7 +59,7 @@ void WeatherToolPluginJob::start()
     }
     KWeatherCore::LocationQuery *locationSource = new KWeatherCore::LocationQuery(this);
     auto reply = locationSource->query(city);
-    connect(reply, &KWeatherCore::LocationQueryReply::finished, this, [this, reply]() {
+    connect(reply, &KWeatherCore::LocationQueryReply::finished, this, [this, reply, weatherInfo]() {
         reply->deleteLater();
         if (reply->error() != KWeatherCore::LocationQueryReply::NoError) {
             qCDebug(WEATHER_TOOL_LOG) << "can't find this place";
@@ -69,6 +71,17 @@ void WeatherToolPluginJob::start()
         if (!result.empty()) {
             getWeatherFromCity(result.front());
         } else {
+            switch (weatherInfo) {
+            case WeatherToolPluginUtils::WeatherEnum::Unknown:
+                break;
+            case WeatherToolPluginUtils::WeatherEnum::Full:
+                // TODO
+                break;
+            case WeatherToolPluginUtils::WeatherEnum::Temperature:
+                // TODO
+                break;
+            }
+
             const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
                 .content = {},
                 .messageUuid = mMessageUuid,
