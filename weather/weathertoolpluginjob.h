@@ -4,6 +4,7 @@
   SPDX-License-Identifier: GPL-2.0-or-later
 */
 #pragma once
+#include "weathertoolpluginutils.h"
 #include <KWeatherCore/LocationQueryResult>
 #include <QObject>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPluginJob>
@@ -17,5 +18,5 @@ public:
     void start() override;
 
 private:
-    void getWeatherFromCity(const KWeatherCore::LocationQueryResult &city);
+    void getWeatherFromCity(const KWeatherCore::LocationQueryResult &city, WeatherToolPluginUtils::WeatherEnum weatherInfo);
 };

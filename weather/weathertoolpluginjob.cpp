@@ -6,7 +6,6 @@
 
 #include "weathertoolpluginjob.h"
 #include "weather_tool_debug.h"
-#include "weathertoolpluginutils.h"
 #include <KWeatherCore/LocationQuery>
 #include <KWeatherCore/LocationQueryReply>
 #include <KWeatherCore/WeatherForecastSource>
@@ -69,19 +68,8 @@ void WeatherToolPluginJob::start()
 
         const auto result = reply->result();
         if (!result.empty()) {
-            getWeatherFromCity(result.front());
+            getWeatherFromCity(result.front(), weatherInfo);
         } else {
-            switch (weatherInfo) {
-            case WeatherToolPluginUtils::WeatherEnum::Unknown:
-                break;
-            case WeatherToolPluginUtils::WeatherEnum::Full:
-                // TODO
-                break;
-            case WeatherToolPluginUtils::WeatherEnum::Temperature:
-                // TODO
-                break;
-            }
-
             const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
                 .content = {},
                 .messageUuid = mMessageUuid,
@@ -92,20 +80,26 @@ void WeatherToolPluginJob::start()
             Q_EMIT finished(info);
             deleteLater();
         }
-
-        // for (auto location : reply->result()) {
-        //     qDebug() << location.toponymName();
-        // }
     });
 }
 
-void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryResult &city)
+void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryResult &city, WeatherToolPluginUtils::WeatherEnum weatherInfo)
 {
     auto weatherForecastSource = new KWeatherCore::WeatherForecastSource(this);
     KWeatherCore::PendingWeatherForecast *reply = weatherForecastSource->requestData(city);
-    connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply]() {
+    connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply, weatherInfo]() {
         const auto result = reply->value();
-        qDebug() << " result " << result.dailyWeatherForecast().front().weatherDescription();
+        qDebug() << " result " << result.dailyWeatherForecast().front().weatherDescription() << " weatherInfo " << weatherInfo;
+        switch (weatherInfo) {
+        case WeatherToolPluginUtils::WeatherEnum::Unknown:
+            break;
+        case WeatherToolPluginUtils::WeatherEnum::Full:
+            // TODO
+            break;
+        case WeatherToolPluginUtils::WeatherEnum::Temperature:
+            // TODO
+            break;
+        }
 
         // TODO create correct i18n
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
