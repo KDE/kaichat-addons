@@ -1,57 +1,55 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat-addons package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SPDX-FileCopyrightText: 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-23 00:46+0000\n"
-"PO-Revision-Date: 2025-11-22 10:01+0100\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
-"Language: ka\n"
+"PO-Revision-Date: 2025-11-22 21:44+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: pl\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #: weathertoolplugin.cpp:21
 msgid "The name of the city"
-msgstr "ქალაქის სახელი"
+msgstr "Nazwa miasta"
 
 #: weathertoolplugin.cpp:27
 msgid "The information that we need"
-msgstr "ინფორმაცია, რომელიც გვჭირდება"
+msgstr "Informacje, których potrzebujemy"
 
 #: weathertoolplugin.cpp:42
 #, kde-format
 msgid "Ask Weather Report"
-msgstr "ამინდის ანგარიშის მოთხოვნა"
+msgstr "Zapytaj o prognozę pogody"
 
 #: weathertoolplugin.cpp:47
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
-msgstr ""
-"ეს ხელსაწყოები, მხოლოდ, მეტეოზე გამოიყენეთ. მიიღეთ მიმდინარე ამინდი "
-"ქალაქისთვის"
+msgstr "Użyj tych narzędzi tylko na meteo. Pobierz bieżącą pogodę dla miasta"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Weather Tool Plugin"
-msgstr "ამინდის ხელსაწყოს დამატების მორგება"
+msgstr "Ustawienia wtyczki pogody"
 
 #: weathertoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Weather."
-msgstr "მიმდინარე ამინდის მიღება."
+msgstr "Pobierz bieżącą pogodę."
 
 #: weathertoolpluginjob.cpp:49
 #, kde-format
 msgid "No city found."
-msgstr "ქალაქი ვერ ვიპოვე."
+msgstr "Nie znaleziono danego miasta."
 
 #: weathertoolpluginjob.cpp:98
 #, kde-format

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-22 00:45+0000\n"
-"PO-Revision-Date: 2025-11-21 12:58+0200\n"
+"POT-Creation-Date: 2025-11-23 00:46+0000\n"
+"PO-Revision-Date: 2025-11-22 15:15+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -24,7 +24,7 @@ msgstr "Назва міста"
 
 #: weathertoolplugin.cpp:27
 msgid "The information that we need"
-msgstr ""
+msgstr "Потрібні нам дані"
 
 #: weathertoolplugin.cpp:42
 #, kde-format
@@ -43,12 +43,22 @@ msgstr ""
 msgid "Configure Weather Tool Plugin"
 msgstr "Налаштування додатка інструмента погоди"
 
-#: weathertoolpluginjob.cpp:30
+#: weathertoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Weather."
 msgstr "Отримати дані щодо поточної погоди."
 
-#: weathertoolpluginjob.cpp:48
+#: weathertoolpluginjob.cpp:49
 #, kde-format
 msgid "No city found."
 msgstr "Міста не знайдено."
+
+#: weathertoolpluginjob.cpp:98
+#, kde-format
+msgid "The weather is %1"
+msgstr ""
+
+#: weathertoolpluginjob.cpp:101
+#, kde-format
+msgid "The temperature will be between %1°C and %2°C."
+msgstr ""
