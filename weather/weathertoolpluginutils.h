@@ -12,6 +12,7 @@ enum WeatherEnum : int8_t {
     Unknown = 0,
     Full,
     Temperature,
+    Humidity,
     // TODO add more
 };
 

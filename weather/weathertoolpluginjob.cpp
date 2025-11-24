@@ -89,18 +89,20 @@ void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryR
     KWeatherCore::PendingWeatherForecast *reply = weatherForecastSource->requestData(city);
     connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply, weatherInfo]() {
         const auto result = reply->value();
-        qDebug() << " result " << result.dailyWeatherForecast().front().weatherDescription() << " weatherInfo " << weatherInfo;
+        const auto dailyWeatherForecast = result.dailyWeatherForecast().front();
+        qDebug() << " result " << dailyWeatherForecast.weatherDescription() << " weatherInfo " << weatherInfo;
         QString resultStr;
         switch (weatherInfo) {
         case WeatherToolPluginUtils::WeatherEnum::Unknown:
             break;
         case WeatherToolPluginUtils::WeatherEnum::Full:
-            resultStr = i18n("The weather is %1", result.dailyWeatherForecast().front().weatherDescription());
+            resultStr = i18n("The weather is %1", dailyWeatherForecast.weatherDescription());
             break;
         case WeatherToolPluginUtils::WeatherEnum::Temperature:
-            resultStr = i18n("The temperature will be between %1°C and %2°C.",
-                             result.dailyWeatherForecast().front().minTemp(),
-                             result.dailyWeatherForecast().front().maxTemp());
+            resultStr = i18n("The temperature will be between %1°C and %2°C.", dailyWeatherForecast.minTemp(), dailyWeatherForecast.maxTemp());
+            break;
+        case WeatherToolPluginUtils::WeatherEnum::Humidity:
+            resultStr = i18n("The humidity is %1", dailyWeatherForecast.humidity());
             break;
         }
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
