@@ -7,6 +7,7 @@
 #include "wikipediatoolplugin.h"
 #include "wikipediatoolplugindialog.h"
 #include "wikipediatoolpluginjob.h"
+#include "wikipediatoolutils.h"
 #include <KPluginFactory>
 K_PLUGIN_CLASS_WITH_JSON(WikipediaToolPlugin, "textautogeneratetext_wikipediatoolplugin.json")
 
@@ -14,11 +15,11 @@ using namespace Qt::Literals::StringLiterals;
 WikipediaToolPlugin::WikipediaToolPlugin(QObject *parent, const QVariantList &)
     : TextAutoGenerateTextToolPlugin{parent}
 {
-    mToolNameId = "wikipedia_tool"_ba;
+    mToolNameId = WikipediaToolUtils::nameToolId();
     {
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The name of wikipedia title."));
-        prop.setName(u"title"_s);
+        prop.setName(WikipediaToolUtils::propertyTitle());
         mProperties.append(prop);
     }
 }

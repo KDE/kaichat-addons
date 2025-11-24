@@ -20,6 +20,8 @@ target_sources(
         wikipediatoolpluginwidget.cpp
         wikipediatoolpluginjob.h
         wikipediatoolpluginjob.cpp
+        wikipediatoolutils.h
+        wikipediatoolutils.cpp
 )
 target_link_libraries(
     textautogeneratetext_wikipediatoolplugin

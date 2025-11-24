@@ -6,6 +6,7 @@
 
 #include "wikipediatoolpluginjob.h"
 #include "wikipedia_tool_debug.h"
+#include "wikipediatoolutils.h"
 #include <QDebug>
 using namespace Qt::Literals::StringLiterals;
 WikipediaToolPluginJob::WikipediaToolPluginJob(QObject *parent)
@@ -31,7 +32,7 @@ void WikipediaToolPluginJob::start()
         for (const auto &resultTool : std::as_const(mToolArguments)) {
             if (resultTool.keyTool == arg) {
                 const QString value = resultTool.value;
-                if (arg == "title"_L1) {
+                if (arg == WikipediaToolUtils::propertyTitle()) {
                     title = value;
                     qCDebug(WIKIPEDIA_TOOL_LOG) << "title: " << title;
                 }
