@@ -7,7 +7,7 @@
 #include "wikipediatoolpluginjob.h"
 #include "wikipedia_tool_debug.h"
 #include "wikipediatoolutils.h"
-#include <QDebug>
+
 using namespace Qt::Literals::StringLiterals;
 WikipediaToolPluginJob::WikipediaToolPluginJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateTextToolPluginJob{parent}
