@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 cmake_minimum_required(VERSION 3.16.0 FATAL_ERROR)
-set(KAICHAT-ADDONS_VERSION "0.1")
+set(KAICHAT-ADDONS_VERSION "0.2")
 project(kaichat-addons VERSION ${KAICHAT-ADDONS_VERSION})
 
 set(QT_REQUIRED_VERSION "6.9.0")
