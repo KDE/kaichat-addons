@@ -13,6 +13,7 @@ enum WeatherEnum : int8_t {
     Full,
     Temperature,
     Humidity,
+    Pressure,
     // TODO add more
 };
 

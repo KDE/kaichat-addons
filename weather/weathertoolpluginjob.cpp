@@ -104,6 +104,9 @@ void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryR
         case WeatherToolPluginUtils::WeatherEnum::Humidity:
             resultStr = i18n("The humidity is %1", dailyWeatherForecast.humidity());
             break;
+        case WeatherToolPluginUtils::WeatherEnum::Pressure:
+            resultStr = i18n("The pressure is %1", dailyWeatherForecast.pressure());
+            break;
         }
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
             .content = resultStr,

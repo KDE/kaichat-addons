@@ -30,6 +30,7 @@ WeatherToolPlugin::WeatherToolPlugin(QObject *parent, const QVariantList &)
             WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Full),
             WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Temperature),
             WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Humidity),
+            WeatherToolPluginUtils::convertWeatherEnumToString(WeatherToolPluginUtils::Pressure),
         });
 
         mProperties.append(prop);

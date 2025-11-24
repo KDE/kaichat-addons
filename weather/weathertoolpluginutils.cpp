@@ -15,6 +15,8 @@ QString WeatherToolPluginUtils::convertWeatherEnumToString(WeatherEnum type)
         return u"temperature"_s;
     case Humidity:
         return u"humidity"_s;
+    case Pressure:
+        return u"pressure"_s;
     case Unknown:
         break;
     }
@@ -30,6 +32,8 @@ WeatherToolPluginUtils::WeatherEnum WeatherToolPluginUtils::convertStringToWeath
         return WeatherToolPluginUtils::WeatherEnum::Temperature;
     } else if (str == "humidity"_L1) {
         return WeatherToolPluginUtils::WeatherEnum::Humidity;
+    } else if (str == "pressure"_L1) {
+        return WeatherToolPluginUtils::WeatherEnum::Pressure;
     } else {
         qCWarning(WEATHER_TOOL_LOG) << "Invalid weather type:" << str;
         return WeatherToolPluginUtils::WeatherEnum::Unknown;
