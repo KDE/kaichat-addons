@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-23 00:46+0000\n"
-"PO-Revision-Date: 2025-11-22 07:48+0100\n"
+"PO-Revision-Date: 2025-11-23 09:39+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -57,9 +57,9 @@ msgstr "No s'ha trobat cap ciutat."
 #: weathertoolpluginjob.cpp:98
 #, kde-format
 msgid "The weather is %1"
-msgstr ""
+msgstr "La meteorologia és %1"
 
 #: weathertoolpluginjob.cpp:101
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
-msgstr ""
+msgstr "La temperatura estarà entre %1°C i %2°C."
