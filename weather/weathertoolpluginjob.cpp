@@ -90,7 +90,7 @@ void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryR
     connect(reply, &KWeatherCore::PendingWeatherForecast::finished, this, [this, reply, weatherInfo]() {
         const auto result = reply->value();
         const auto dailyWeatherForecast = result.dailyWeatherForecast().front();
-        qDebug() << " result " << dailyWeatherForecast.weatherDescription() << " weatherInfo " << weatherInfo;
+        // qDebug() << " result " << dailyWeatherForecast.weatherDescription() << " weatherInfo " << weatherInfo;
         QString resultStr;
         switch (weatherInfo) {
         case WeatherToolPluginUtils::WeatherEnum::Unknown:
@@ -106,6 +106,9 @@ void WeatherToolPluginJob::getWeatherFromCity(const KWeatherCore::LocationQueryR
             break;
         case WeatherToolPluginUtils::WeatherEnum::Pressure:
             resultStr = i18n("The pressure is %1", dailyWeatherForecast.pressure());
+            break;
+        case WeatherToolPluginUtils::WeatherEnum::UVIndex:
+            resultStr = i18n("The uv index is %1", dailyWeatherForecast.uvIndex());
             break;
         }
         const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
