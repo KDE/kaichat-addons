@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"POT-Creation-Date: 2025-11-25 00:45+0000\n"
 "PO-Revision-Date: 2025-11-21 09:09+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -19,16 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 25.04.0\n"
 
-#: wikipediatoolplugin.cpp:20
+#: wikipediatoolplugin.cpp:21
 msgid "The name of wikipedia title."
 msgstr "El nom del títol de la Viquipèdia."
 
-#: wikipediatoolplugin.cpp:30
+#: wikipediatoolplugin.cpp:31
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
 msgstr "Demaneu la pàgina de la Viquipèdia a partir d'un títol"
 
-#: wikipediatoolplugin.cpp:35
+#: wikipediatoolplugin.cpp:36
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr ""
@@ -40,12 +40,12 @@ msgstr ""
 msgid "Configure Wikipedia Tool Plugin"
 msgstr "Configura el connector de l'eina de Viquipèdia"
 
-#: wikipediatoolpluginjob.cpp:27
+#: wikipediatoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Wikipedia Page."
 msgstr "Obté la pàgina de la Viquipèdia."
 
-#: wikipediatoolpluginjob.cpp:44
+#: wikipediatoolpluginjob.cpp:45
 #, kde-format
 msgid "No title found"
 msgstr "No s'ha trobat cap títol"

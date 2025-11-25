@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"POT-Creation-Date: 2025-11-25 00:45+0000\n"
 "PO-Revision-Date: 2025-11-21 12:54+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -18,16 +18,16 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Lokalize 25.08.3\n"
 
-#: wikipediatoolplugin.cpp:20
+#: wikipediatoolplugin.cpp:21
 msgid "The name of wikipedia title."
 msgstr "שם הכותרת בוויקיפדיה."
 
-#: wikipediatoolplugin.cpp:30
+#: wikipediatoolplugin.cpp:31
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
 msgstr "לשאול עמוד ויקיפדיה לפי הכותרת"
 
-#: wikipediatoolplugin.cpp:35
+#: wikipediatoolplugin.cpp:36
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr "אפשר להשתמש בכלים האלה כדי למשוך עמוד ויקיפדיה לפי הכותרת."
@@ -37,12 +37,12 @@ msgstr "אפשר להשתמש בכלים האלה כדי למשוך עמוד ו�
 msgid "Configure Wikipedia Tool Plugin"
 msgstr "הגדרת כלי תוסף ויקיפדיה"
 
-#: wikipediatoolpluginjob.cpp:27
+#: wikipediatoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Wikipedia Page."
 msgstr "משיכת עמוד מוויקיפדיה."
 
-#: wikipediatoolpluginjob.cpp:44
+#: wikipediatoolpluginjob.cpp:45
 #, kde-format
 msgid "No title found"
 msgstr "הכותרת לא נמצאה"

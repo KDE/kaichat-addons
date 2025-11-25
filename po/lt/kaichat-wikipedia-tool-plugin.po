@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"POT-Creation-Date: 2025-11-25 00:45+0000\n"
 "PO-Revision-Date: 2025-11-21 00:46+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,16 +18,16 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
 
-#: wikipediatoolplugin.cpp:20
+#: wikipediatoolplugin.cpp:21
 msgid "The name of wikipedia title."
 msgstr ""
 
-#: wikipediatoolplugin.cpp:30
+#: wikipediatoolplugin.cpp:31
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
 msgstr ""
 
-#: wikipediatoolplugin.cpp:35
+#: wikipediatoolplugin.cpp:36
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr ""
@@ -37,12 +37,12 @@ msgstr ""
 msgid "Configure Wikipedia Tool Plugin"
 msgstr ""
 
-#: wikipediatoolpluginjob.cpp:27
+#: wikipediatoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Wikipedia Page."
 msgstr ""
 
-#: wikipediatoolpluginjob.cpp:44
+#: wikipediatoolpluginjob.cpp:45
 #, kde-format
 msgid "No title found"
 msgstr ""

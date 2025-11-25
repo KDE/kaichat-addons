@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-21 00:46+0000\n"
+"POT-Creation-Date: 2025-11-25 00:45+0000\n"
 "PO-Revision-Date: 2025-11-21 04:16+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -18,16 +18,16 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: wikipediatoolplugin.cpp:20
+#: wikipediatoolplugin.cpp:21
 msgid "The name of wikipedia title."
 msgstr "Wikipedia-ის სათაურის სახელი."
 
-#: wikipediatoolplugin.cpp:30
+#: wikipediatoolplugin.cpp:31
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
 msgstr "Wikipedia-ის გვერდის გამოთხოვა სათაურის მიხედვით"
 
-#: wikipediatoolplugin.cpp:35
+#: wikipediatoolplugin.cpp:36
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr "გამოიყენეთ ეს ხელსაწყოები Wikipedia-ის გვერდის მისაღებად სათაურიდან."
@@ -37,12 +37,12 @@ msgstr "გამოიყენეთ ეს ხელსაწყოები 
 msgid "Configure Wikipedia Tool Plugin"
 msgstr "Wikipedia-ის ხელსაწყოს დამატების მორგება"
 
-#: wikipediatoolpluginjob.cpp:27
+#: wikipediatoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Wikipedia Page."
 msgstr "Wikipedia-ის გვერდის მიღება."
 
-#: wikipediatoolpluginjob.cpp:44
+#: wikipediatoolpluginjob.cpp:45
 #, kde-format
 msgid "No title found"
 msgstr "სათაური აღმოჩენილი არაა"
