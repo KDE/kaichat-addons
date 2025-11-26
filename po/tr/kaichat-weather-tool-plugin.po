@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
-"PO-Revision-Date: 2025-11-23 12:38+0300\n"
+"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"PO-Revision-Date: 2025-11-25 11:21+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -25,12 +25,12 @@ msgstr "Şehrin adı"
 msgid "The information that we need"
 msgstr "Gereksinimimiz olan bilgi"
 
-#: weathertoolplugin.cpp:44
+#: weathertoolplugin.cpp:45
 #, kde-format
 msgid "Ask Weather Report"
 msgstr "Hava Durumunu Sor"
 
-#: weathertoolplugin.cpp:49
+#: weathertoolplugin.cpp:50
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
 msgstr "Bir şehrin hava durumunu almak için bu araçları kullanın."
@@ -61,13 +61,17 @@ msgid "The temperature will be between %1°C and %2°C."
 msgstr "Sıcaklık, %1 °C ve %2 °C arasında olacak."
 
 #: weathertoolpluginjob.cpp:105
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The humidity is %1"
-msgstr "Hava durumu %1"
+msgstr "Nem %1"
 
 #: weathertoolpluginjob.cpp:108
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The pressure is %1"
-msgstr "Hava durumu %1"
+msgstr "Basınç %1"
+
+#: weathertoolpluginjob.cpp:111
+#, fuzzy, kde-format
+#| msgid "The humidity is %1"
+msgid "The uv index is %1"
+msgstr "Nem %1"

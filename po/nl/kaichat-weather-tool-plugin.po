@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
-"PO-Revision-Date: 2025-11-23 16:27+0100\n"
+"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"PO-Revision-Date: 2025-11-25 14:14+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -25,12 +25,12 @@ msgstr "De naam van de stad"
 msgid "The information that we need"
 msgstr "De informatie die we nodig hebben"
 
-#: weathertoolplugin.cpp:44
+#: weathertoolplugin.cpp:45
 #, kde-format
 msgid "Ask Weather Report"
 msgstr "Vraag weerrapport op"
 
-#: weathertoolplugin.cpp:49
+#: weathertoolplugin.cpp:50
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
 msgstr ""
@@ -63,13 +63,17 @@ msgid "The temperature will be between %1°C and %2°C."
 msgstr "De temperatuur zal tussen %1°C en %2°C zijn."
 
 #: weathertoolpluginjob.cpp:105
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The humidity is %1"
-msgstr "Het weer is %1"
+msgstr "De vochtigheidsgraad is %1"
 
 #: weathertoolpluginjob.cpp:108
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The pressure is %1"
-msgstr "Het weer is %1"
+msgstr "De luchtdruk is %1"
+
+#: weathertoolpluginjob.cpp:111
+#, fuzzy, kde-format
+#| msgid "The humidity is %1"
+msgid "The uv index is %1"
+msgstr "De vochtigheidsgraad is %1"

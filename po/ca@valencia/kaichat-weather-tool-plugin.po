@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
-"PO-Revision-Date: 2025-11-23 09:39+0100\n"
+"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"PO-Revision-Date: 2025-11-25 08:57+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -27,12 +27,12 @@ msgstr "El nom de la ciutat"
 msgid "The information that we need"
 msgstr "La informació que ens cal"
 
-#: weathertoolplugin.cpp:44
+#: weathertoolplugin.cpp:45
 #, kde-format
 msgid "Ask Weather Report"
 msgstr "Demana un informe meteorològic"
 
-#: weathertoolplugin.cpp:49
+#: weathertoolplugin.cpp:50
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
 msgstr ""
@@ -65,13 +65,17 @@ msgid "The temperature will be between %1°C and %2°C."
 msgstr "La temperatura estarà entre %1°C i %2°C."
 
 #: weathertoolpluginjob.cpp:105
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The humidity is %1"
-msgstr "La meteorologia és %1"
+msgstr "La humitat és %1"
 
 #: weathertoolpluginjob.cpp:108
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The pressure is %1"
-msgstr "La meteorologia és %1"
+msgstr "La pressió és %1"
+
+#: weathertoolpluginjob.cpp:111
+#, fuzzy, kde-format
+#| msgid "The humidity is %1"
+msgid "The uv index is %1"
+msgstr "La humitat és %1"

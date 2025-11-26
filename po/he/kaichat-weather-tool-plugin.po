@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
+"POT-Creation-Date: 2025-11-26 00:46+0000\n"
 "PO-Revision-Date: 2025-11-23 08:30+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -26,12 +26,12 @@ msgstr "שם העיר"
 msgid "The information that we need"
 msgstr "המידע שנחוץ לנו"
 
-#: weathertoolplugin.cpp:44
+#: weathertoolplugin.cpp:45
 #, kde-format
 msgid "Ask Weather Report"
 msgstr "לשאול דוח מזג אוויר"
 
-#: weathertoolplugin.cpp:49
+#: weathertoolplugin.cpp:50
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
 msgstr ""
@@ -71,4 +71,10 @@ msgstr "מזג האוויר הוא %1"
 #, fuzzy, kde-format
 #| msgid "The weather is %1"
 msgid "The pressure is %1"
+msgstr "מזג האוויר הוא %1"
+
+#: weathertoolpluginjob.cpp:111
+#, fuzzy, kde-format
+#| msgid "The weather is %1"
+msgid "The uv index is %1"
 msgstr "מזג האוויר הוא %1"
