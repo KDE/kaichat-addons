@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the kaichat-addons package.
 #
 # SPDX-FileCopyrightText: 2025 Marcus Gama <marcus.gama@gmail.com>
+# SPDX-FileCopyrightText: 2025 Guilherme Marçal Silva <guimarcalsilva@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-11-25 06:20-0300\n"
-"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
+"PO-Revision-Date: 2025-11-26 01:15-0300\n"
+"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -73,7 +74,6 @@ msgid "The pressure is %1"
 msgstr "A pressão está %1"
 
 #: weathertoolpluginjob.cpp:111
-#, fuzzy, kde-format
-#| msgid "The humidity is %1"
+#, kde-format
 msgid "The uv index is %1"
-msgstr "A umidade está %1"
+msgstr "O índice UV é %1"

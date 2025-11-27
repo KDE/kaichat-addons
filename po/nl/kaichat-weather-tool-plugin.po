@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-11-25 14:14+0100\n"
+"PO-Revision-Date: 2025-11-26 14:52+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -73,7 +73,6 @@ msgid "The pressure is %1"
 msgstr "De luchtdruk is %1"
 
 #: weathertoolpluginjob.cpp:111
-#, fuzzy, kde-format
-#| msgid "The humidity is %1"
+#, kde-format
 msgid "The uv index is %1"
-msgstr "De vochtigheidsgraad is %1"
+msgstr "De uv-index is %1"

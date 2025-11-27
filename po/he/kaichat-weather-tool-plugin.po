@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-11-23 08:30+0200\n"
+"PO-Revision-Date: 2025-11-26 10:28+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -62,19 +62,16 @@ msgid "The temperature will be between %1°C and %2°C."
 msgstr "הטמפרטורה בין %1°C לבין %2°C."
 
 #: weathertoolpluginjob.cpp:105
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The humidity is %1"
-msgstr "מזג האוויר הוא %1"
+msgstr "הלחות היא %1"
 
 #: weathertoolpluginjob.cpp:108
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The pressure is %1"
-msgstr "מזג האוויר הוא %1"
+msgstr "הלחץ הוא %1"
 
 #: weathertoolpluginjob.cpp:111
-#, fuzzy, kde-format
-#| msgid "The weather is %1"
+#, kde-format
 msgid "The uv index is %1"
-msgstr "מזג האוויר הוא %1"
+msgstr "מדד קרינת העל־סגול הוא %1"
