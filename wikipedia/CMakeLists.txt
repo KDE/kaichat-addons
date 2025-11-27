@@ -27,3 +27,5 @@ target_link_libraries(
     textautogeneratetext_wikipediatoolplugin
     KF6::TextAutoGenerateText
 )
+
+## TODO add autotests
