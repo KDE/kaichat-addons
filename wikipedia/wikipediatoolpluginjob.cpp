@@ -52,7 +52,12 @@ void WikipediaToolPluginJob::start()
         deleteLater();
         return;
     }
+    downloadWikipediaContent(title);
+}
 
+void WikipediaToolPluginJob::downloadWikipediaContent(const QString &title)
+{
+    // TODO
     // qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
     Q_EMIT finished({});
     deleteLater();

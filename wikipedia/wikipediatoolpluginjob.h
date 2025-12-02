@@ -14,4 +14,7 @@ public:
     ~WikipediaToolPluginJob() override;
 
     void start() override;
+
+private:
+    void downloadWikipediaContent(const QString &title);
 };
