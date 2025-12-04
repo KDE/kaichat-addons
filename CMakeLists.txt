@@ -97,6 +97,7 @@ if(TARGET KWeatherCore)
 endif()
 
 add_subdirectory(wikipedia)
+add_subdirectory(websearch)
 
 file(GLOB_RECURSE ALL_SOURCE_FILES)
 ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
