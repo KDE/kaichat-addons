@@ -1,6 +1,7 @@
 {
     "KPlugin": {
         "Description": "This tool plugin allows to extract wikipedia content from title.",
+        "Description[ar]": "يسمح أداة هذا الملحق بالحصول محتويات الويكيبديا من العنوان.",
         "Description[ca@valencia]": "Esta eina permet extraure contingut de la Viquipèdia a partir d'un títol.",
         "Description[ca]": "Aquesta eina permet extraure contingut de la Viquipèdia a partir d'un títol.",
         "Description[es]": "Este complemento de herramienta permite extraer contenido de la Wikipedia a partir del título.",
@@ -16,6 +17,7 @@
         "Description[uk]": "За допомогою цього інструменту можна отримати дані Вікіпедії за заголовком статті.",
         "EnabledByDefault": true,
         "Name": "Tool Wikipedia Plugin",
+        "Name[ar]": "أداة ملحقة ويكيبيديا",
         "Name[ca@valencia]": "Connector d'eina de la Viquipèdia",
         "Name[ca]": "Connector d'eina de la Viquipèdia",
         "Name[es]": "Herramienta complemento de la Wikipedia",

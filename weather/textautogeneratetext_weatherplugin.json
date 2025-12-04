@@ -1,6 +1,7 @@
 {
     "KPlugin": {
         "Description": "This tool plugin allows to get weather.",
+        "Description[ar]": "يسمح أداة هذا الملحق بالحصول على معلومات الطقس.",
         "Description[ca@valencia]": "Esta eina permet veure la meteorologia.",
         "Description[ca]": "Aquesta eina permet veure la meteorologia.",
         "Description[es]": "Este complemento de herramienta permite obtener datos meteorológicos.",
@@ -16,6 +17,7 @@
         "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо погоди.",
         "EnabledByDefault": true,
         "Name": "Tool Weather Plugin",
+        "Name[ar]": "اضبط أداة الطقس",
         "Name[ca@valencia]": "Connector d'eina de meteorologia",
         "Name[ca]": "Connector d'eina de meteorologia",
         "Name[es]": "Herramienta complemento meteorológico",
