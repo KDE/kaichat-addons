@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-12-03 17:09+0400\n"
+"PO-Revision-Date: 2025-12-04 14:53+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -24,27 +24,27 @@ msgstr "اسم المدينة"
 
 #: weathertoolplugin.cpp:27
 msgid "The information that we need"
-msgstr ""
+msgstr "المعلومات التي نحتاجها"
 
 #: weathertoolplugin.cpp:45
 #, kde-format
 msgid "Ask Weather Report"
-msgstr "أسال عن تقرير الطقس"
+msgstr "اسأل عن تقرير الطقس"
 
 #: weathertoolplugin.cpp:50
 #, kde-format
 msgid "Use this tools, only on meteo. Get the current weather for a city"
-msgstr ""
+msgstr "استخدم هذه الأدوات فقط على meteo. احصل على الطقس الحالي لمدينة ما"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Weather Tool Plugin"
-msgstr ""
+msgstr "اضبط ملحقة أداة الطقس"
 
 #: weathertoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Weather."
-msgstr ""
+msgstr "اجلب الطقس الحالي."
 
 #: weathertoolpluginjob.cpp:49
 #, kde-format
@@ -54,24 +54,24 @@ msgstr "لم يعثر على أي مدينة."
 #: weathertoolpluginjob.cpp:99
 #, kde-format
 msgid "The weather is %1"
-msgstr ""
+msgstr "الطقس %1"
 
 #: weathertoolpluginjob.cpp:102
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
-msgstr ""
+msgstr "ستتراوح درجة الحرارة بين %1°د و %2°د."
 
 #: weathertoolpluginjob.cpp:105
 #, kde-format
 msgid "The humidity is %1"
-msgstr ""
+msgstr "الرّطوبة %1"
 
 #: weathertoolpluginjob.cpp:108
 #, kde-format
 msgid "The pressure is %1"
-msgstr ""
+msgstr "الضغط %1"
 
 #: weathertoolpluginjob.cpp:111
 #, kde-format
 msgid "The uv index is %1"
-msgstr ""
+msgstr "مؤشر الأشعة فوق البنفسجية %1"
