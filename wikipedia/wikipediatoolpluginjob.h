@@ -17,4 +17,5 @@ public:
 
 private:
     void downloadWikipediaContent(const QString &title);
+    QByteArray mData;
 };

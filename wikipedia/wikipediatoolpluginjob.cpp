@@ -8,6 +8,9 @@
 #include "wikipedia_tool_debug.h"
 #include "wikipediatoolutils.h"
 
+#include <KIO/Job>
+#include <KIO/TransferJob>
+
 using namespace Qt::Literals::StringLiterals;
 WikipediaToolPluginJob::WikipediaToolPluginJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateTextToolPluginJob{parent}
@@ -57,6 +60,21 @@ void WikipediaToolPluginJob::start()
 
 void WikipediaToolPluginJob::downloadWikipediaContent(const QString &title)
 {
+    QUrl url;
+    auto job = KIO::get(url, KIO::NoReload, KIO::HideProgressInfo);
+    connect(job, &KIO::TransferJob::data, this, [this](KIO::Job *job, const QByteArray &data) {
+        mData += data;
+    });
+    connect(job, &KIO::TransferJob::result, this, [this](KJob *job) {
+        if (job->error()) {
+            qDebug() << "Error:" << job->errorString();
+            Q_EMIT finished({});
+            deleteLater();
+        } else {
+            qDebug() << "Download completed successfully!";
+        }
+    });
+
     // TODO
     // qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
     Q_EMIT finished({});
