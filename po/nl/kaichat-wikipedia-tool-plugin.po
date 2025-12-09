@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
+"POT-Creation-Date: 2025-12-09 00:45+0000\n"
 "PO-Revision-Date: 2025-11-21 13:14+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -38,12 +38,12 @@ msgstr ""
 msgid "Configure Wikipedia Tool Plugin"
 msgstr "Plug-in van hulpmiddel Wikipedia configureren"
 
-#: wikipediatoolpluginjob.cpp:28
+#: wikipediatoolpluginjob.cpp:31
 #, kde-format
 msgid "Get Wikipedia Page."
 msgstr "Haal pagina op Wikipedia op."
 
-#: wikipediatoolpluginjob.cpp:45
+#: wikipediatoolpluginjob.cpp:48
 #, kde-format
 msgid "No title found"
 msgstr "Geen titel gevonden"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
+"POT-Creation-Date: 2025-12-09 00:45+0000\n"
 "PO-Revision-Date: 2025-11-22 21:45+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -37,12 +37,12 @@ msgstr "Używaj tej wtyczki do pobierania stron wikipedi po tytule."
 msgid "Configure Wikipedia Tool Plugin"
 msgstr "Ustawienia wtyczki Wikipedii"
 
-#: wikipediatoolpluginjob.cpp:28
+#: wikipediatoolpluginjob.cpp:31
 #, kde-format
 msgid "Get Wikipedia Page."
 msgstr "Pobierz stronę Wikipedii."
 
-#: wikipediatoolpluginjob.cpp:45
+#: wikipediatoolpluginjob.cpp:48
 #, kde-format
 msgid "No title found"
 msgstr "Nie znaleziono danego tytułu"
