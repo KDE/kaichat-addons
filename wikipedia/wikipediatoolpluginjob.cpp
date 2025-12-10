@@ -60,10 +60,11 @@ void WikipediaToolPluginJob::start()
 
 void WikipediaToolPluginJob::downloadWikipediaContent(const QString &title)
 {
-    QUrl url;
+    const QUrl url = QUrl(QStringLiteral("https://api.wikimedia.org/core/v1/wikipedia/en/search/title?q=%1&limit=1").arg(title));
     auto job = KIO::get(url, KIO::NoReload, KIO::HideProgressInfo);
     connect(job, &KIO::TransferJob::data, this, [this](KIO::Job *job, const QByteArray &data) {
         mData += data;
+        qDebug() << " data " << data;
     });
     connect(job, &KIO::TransferJob::result, this, [this](KJob *job) {
         if (job->error()) {
@@ -74,11 +75,6 @@ void WikipediaToolPluginJob::downloadWikipediaContent(const QString &title)
             qDebug() << "Download completed successfully!";
         }
     });
-
-    // TODO
-    // qDebug() << " TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo " << info;
-    Q_EMIT finished({});
-    deleteLater();
 }
 
 #include "moc_wikipediatoolpluginjob.cpp"
