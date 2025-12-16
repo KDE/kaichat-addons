@@ -1,0 +1,76 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the kaichat-addons package.
+#
+# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"PO-Revision-Date: 2025-12-16 21:58+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 26.03.70\n"
+
+#: weathertoolplugin.cpp:21
+msgid "The name of the city"
+msgstr "城市的名稱"
+
+#: weathertoolplugin.cpp:27
+msgid "The information that we need"
+msgstr "需要的資訊"
+
+#: weathertoolplugin.cpp:45
+#, kde-format
+msgid "Ask Weather Report"
+msgstr "詢問天氣預報"
+
+#: weathertoolplugin.cpp:50
+#, kde-format
+msgid "Use this tools, only on meteo. Get the current weather for a city"
+msgstr ""
+
+#: weathertoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Weather Tool Plugin"
+msgstr "設定天氣工具外掛程式"
+
+#: weathertoolpluginjob.cpp:29
+#, kde-format
+msgid "Get Current Weather."
+msgstr "取得目前天氣。"
+
+#: weathertoolpluginjob.cpp:49
+#, kde-format
+msgid "No city found."
+msgstr "找不到城市。"
+
+#: weathertoolpluginjob.cpp:99
+#, kde-format
+msgid "The weather is %1"
+msgstr "天氣是 %1"
+
+#: weathertoolpluginjob.cpp:102
+#, kde-format
+msgid "The temperature will be between %1°C and %2°C."
+msgstr "氣溫是 %1°C 到 %2°C。"
+
+#: weathertoolpluginjob.cpp:105
+#, kde-format
+msgid "The humidity is %1"
+msgstr "溼度是 %1"
+
+#: weathertoolpluginjob.cpp:108
+#, kde-format
+msgid "The pressure is %1"
+msgstr "氣壓是 %1"
+
+#: weathertoolpluginjob.cpp:111
+#, kde-format
+msgid "The uv index is %1"
+msgstr "紫外線指數是 %1"
