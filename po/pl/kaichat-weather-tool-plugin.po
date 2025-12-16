@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-11-22 21:44+0100\n"
+"PO-Revision-Date: 2025-12-15 08:14+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -54,24 +54,24 @@ msgstr "Nie znaleziono danego miasta."
 #: weathertoolpluginjob.cpp:99
 #, kde-format
 msgid "The weather is %1"
-msgstr ""
+msgstr "Pogoda jest %1"
 
 #: weathertoolpluginjob.cpp:102
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
-msgstr ""
+msgstr "Temperatura będzie pomiędzy %1°C a %2°C."
 
 #: weathertoolpluginjob.cpp:105
 #, kde-format
 msgid "The humidity is %1"
-msgstr ""
+msgstr "Wilgotność równa %1"
 
 #: weathertoolpluginjob.cpp:108
 #, kde-format
 msgid "The pressure is %1"
-msgstr ""
+msgstr "Ciśnienie równe %1"
 
 #: weathertoolpluginjob.cpp:111
 #, kde-format
 msgid "The uv index is %1"
-msgstr ""
+msgstr "Indeks UV równy %1"
