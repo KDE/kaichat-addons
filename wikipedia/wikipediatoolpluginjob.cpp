@@ -73,6 +73,7 @@ void WikipediaToolPluginJob::downloadWikipediaContent(const QString &title)
             deleteLater();
         } else {
             qDebug() << "Download completed successfully!";
+            deleteLater();
         }
     });
 }
