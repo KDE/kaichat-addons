@@ -16,6 +16,7 @@
         "Description[sl]": "Ta vtičnik omogoča pridobivanje vremenskih podatkov.",
         "Description[tr]": "Bu araç, hava durumunu almayı olanaklı kılar.",
         "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо погоди.",
+        "Description[zh_TW]": "這個外掛程式讓您取得天氣。",
         "EnabledByDefault": true,
         "Name": "Tool Weather Plugin",
         "Name[ar]": "اضبط أداة الطقس",
@@ -33,6 +34,7 @@
         "Name[sl]": "Vtičnik orodja za vreme",
         "Name[tr]": "Hava Durumu Aracı Eklentisi",
         "Name[uk]": "Інструмент «Додаток погоди»",
+        "Name[zh_TW]": "天氣工具外掛程式",
         "Version": "1.0"
     }
 }

@@ -16,6 +16,7 @@
         "Description[sl]": "Ta vtičnik omogoča izvlečenje vsebine Wikipedije iz naslova.",
         "Description[tr]": "Bu araç, başlıktan Vikipedi sayfasını getirmeyi olanaklı kılar.",
         "Description[uk]": "За допомогою цього інструменту можна отримати дані Вікіпедії за заголовком статті.",
+        "Description[zh_TW]": "這個外掛程式讓您從標題取出維基百科內容。",
         "EnabledByDefault": true,
         "Name": "Tool Wikipedia Plugin",
         "Name[ar]": "أداة ملحقة ويكيبيديا",
@@ -33,6 +34,7 @@
         "Name[sl]": "Vtičnik za orodje Wikipedia",
         "Name[tr]": "Vikipedi Aracı Eklentisi",
         "Name[uk]": "Інструмент «Додаток Вікіпедії»",
+        "Name[zh_TW]": "維基百科工具外掛程式",
         "Version": "1.0"
     }
 }
