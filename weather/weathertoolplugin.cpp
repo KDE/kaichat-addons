@@ -47,7 +47,7 @@ QString WeatherToolPlugin::displayName() const
 
 QString WeatherToolPlugin::description() const
 {
-    return i18n("Use this tools, only on meteo. Get the current weather for a city");
+    return i18n("Use this tool to get the current weather for a city");
 }
 
 void WeatherToolPlugin::showConfigureDialog(QWidget *parent)
