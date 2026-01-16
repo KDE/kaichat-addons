@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"POT-Creation-Date: 2026-01-16 00:46+0000\n"
 "PO-Revision-Date: 2025-12-04 14:53+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -32,8 +32,9 @@ msgid "Ask Weather Report"
 msgstr "اسأل عن تقرير الطقس"
 
 #: weathertoolplugin.cpp:50
-#, kde-format
-msgid "Use this tools, only on meteo. Get the current weather for a city"
+#, fuzzy, kde-format
+#| msgid "Use this tools, only on meteo. Get the current weather for a city"
+msgid "Use this tool to get the current weather for a city"
 msgstr "استخدم هذه الأدوات فقط على meteo. احصل على الطقس الحالي لمدينة ما"
 
 #: weathertoolplugindialog.cpp:16
