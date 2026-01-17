@@ -1,15 +1,15 @@
 # Translation of kaichat-weather-tool-plugin.po to Catalan
-# Copyright (C) 2025 This_file_is_part_of_KDE
+# Copyright (C) 2025-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2025 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-16 00:46+0000\n"
-"PO-Revision-Date: 2025-11-26 10:50+0100\n"
+"PO-Revision-Date: 2026-01-16 12:15+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -33,12 +33,10 @@ msgid "Ask Weather Report"
 msgstr "Demana un informe meteorològic"
 
 #: weathertoolplugin.cpp:50
-#, fuzzy, kde-format
-#| msgid "Use this tools, only on meteo. Get the current weather for a city"
+#, kde-format
 msgid "Use this tool to get the current weather for a city"
 msgstr ""
-"Utilitzeu aquestes eines, només per la meteorologia. Obteniu el temps actual "
-"d'una ciutat"
+"Utilitzeu aquesta eina per a obtenir la meteorologia actual d'una ciutat"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format

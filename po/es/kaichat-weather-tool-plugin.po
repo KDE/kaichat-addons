@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the kaichat-addons package.
 # Automatically generated, 2025.
 #
-# SPDX-FileCopyrightText: 2025 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2025, 2026 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-weather-tool-plugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-16 00:46+0000\n"
-"PO-Revision-Date: 2025-11-27 00:18+0100\n"
+"PO-Revision-Date: 2026-01-16 11:12+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #: weathertoolplugin.cpp:21
 msgid "The name of the city"
@@ -33,12 +33,10 @@ msgid "Ask Weather Report"
 msgstr "Solicitar informe meteorológico"
 
 #: weathertoolplugin.cpp:50
-#, fuzzy, kde-format
-#| msgid "Use this tools, only on meteo. Get the current weather for a city"
+#, kde-format
 msgid "Use this tool to get the current weather for a city"
 msgstr ""
-"Esta herramienta funciona solo con meteo. Obtener informe meteorológico de "
-"una ciudad."
+"Use esta herramienta para obtener el informe meteorológico de una ciudad"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format

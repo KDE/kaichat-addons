@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-16 00:46+0000\n"
-"PO-Revision-Date: 2025-11-26 03:24+0100\n"
+"PO-Revision-Date: 2026-01-16 05:19+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -32,12 +32,9 @@ msgid "Ask Weather Report"
 msgstr "ამინდის ანგარიშის მოთხოვნა"
 
 #: weathertoolplugin.cpp:50
-#, fuzzy, kde-format
-#| msgid "Use this tools, only on meteo. Get the current weather for a city"
+#, kde-format
 msgid "Use this tool to get the current weather for a city"
-msgstr ""
-"ეს ხელსაწყოები, მხოლოდ, მეტეოზე გამოიყენეთ. მიიღეთ მიმდინარე ამინდი "
-"ქალაქისთვის"
+msgstr "გამოიყენეთ ეს ხელსაწყო ქალაქისთვის მიმდინარე ამინდის მისაღებად"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format

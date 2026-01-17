@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat-addons package.
 #
-# SPDX-FileCopyrightText: 2025 Emir SARI <emir_sari@îcloud.com>
+# SPDX-FileCopyrightText: 2025, 2026 Emir SARI <emir_sari@îcloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-16 00:46+0000\n"
-"PO-Revision-Date: 2025-11-26 12:18+0300\n"
+"PO-Revision-Date: 2026-01-16 22:46+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #: weathertoolplugin.cpp:21
 msgid "The name of the city"
@@ -31,10 +31,9 @@ msgid "Ask Weather Report"
 msgstr "Hava Durumunu Sor"
 
 #: weathertoolplugin.cpp:50
-#, fuzzy, kde-format
-#| msgid "Use this tools, only on meteo. Get the current weather for a city"
+#, kde-format
 msgid "Use this tool to get the current weather for a city"
-msgstr "Bir şehrin hava durumunu almak için bu araçları kullanın."
+msgstr "Bir şehrin hava durumunu almak için bu araçları kullanın"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
