@@ -70,7 +70,7 @@ include(GenerateExportHeader)
 include(ECMDeprecationSettings)
 include(ECMCheckOutboundLicense)
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.9.0")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.1")
 
 find_package(
     Qt6
