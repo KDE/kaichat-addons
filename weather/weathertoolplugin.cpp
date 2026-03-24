@@ -52,7 +52,7 @@ QString WeatherToolPlugin::description() const
 
 void WeatherToolPlugin::showConfigureDialog(QWidget *parent)
 {
-    auto dlg = WeatherToolPluginDialog(this, parent);
+    WeatherToolPluginDialog dlg(this, parent);
     dlg.exec();
 }
 
