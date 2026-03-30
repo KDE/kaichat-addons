@@ -36,6 +36,8 @@ WeatherToolPlugin::WeatherToolPlugin(QObject *parent, const QVariantList &)
 
         mProperties.append(prop);
     }
+    mRequired = {WeatherToolPluginUtils::convertPropertyNameEnumToString(WeatherToolPluginUtils::PropertyNameEnum::City),
+                 WeatherToolPluginUtils::convertPropertyNameEnumToString(WeatherToolPluginUtils::PropertyNameEnum::WeatherInfo)};
 }
 
 WeatherToolPlugin::~WeatherToolPlugin() = default;

@@ -22,6 +22,7 @@ WikipediaToolPlugin::WikipediaToolPlugin(QObject *parent, const QVariantList &)
         prop.setName(WikipediaToolUtils::propertyTitle());
         mProperties.append(prop);
     }
+    mRequired = {WikipediaToolUtils::propertyTitle()};
 }
 
 WikipediaToolPlugin::~WikipediaToolPlugin() = default;
