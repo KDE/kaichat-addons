@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-16 00:46+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2026-01-16 12:15+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -27,12 +27,12 @@ msgstr "El nom de la ciutat"
 msgid "The information that we need"
 msgstr "La informació que ens cal"
 
-#: weathertoolplugin.cpp:45
+#: weathertoolplugin.cpp:47
 #, kde-format
 msgid "Ask Weather Report"
 msgstr "Demana un informe meteorològic"
 
-#: weathertoolplugin.cpp:50
+#: weathertoolplugin.cpp:52
 #, kde-format
 msgid "Use this tool to get the current weather for a city"
 msgstr "Utilitzeu esta eina per a obtindre la meteorologia actual d'una ciutat"

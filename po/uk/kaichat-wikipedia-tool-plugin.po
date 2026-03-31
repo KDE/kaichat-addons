@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 00:45+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2025-11-21 12:59+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -22,12 +22,12 @@ msgstr ""
 msgid "The name of wikipedia title."
 msgstr "Назва сторінки Вікіпедії."
 
-#: wikipediatoolplugin.cpp:31
+#: wikipediatoolplugin.cpp:32
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
 msgstr "Отримати сторінку Вікіпедії за заголовком"
 
-#: wikipediatoolplugin.cpp:36
+#: wikipediatoolplugin.cpp:37
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr ""

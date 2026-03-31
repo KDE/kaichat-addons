@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-wikipedia-tool-plugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-09 00:45+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2025-11-21 19:26+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -23,12 +23,12 @@ msgstr ""
 msgid "The name of wikipedia title."
 msgstr "Título de artículo de la Wikipedia."
 
-#: wikipediatoolplugin.cpp:31
+#: wikipediatoolplugin.cpp:32
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
 msgstr "Solicitar página de la Wikipedia por su título"
 
-#: wikipediatoolplugin.cpp:36
+#: wikipediatoolplugin.cpp:37
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
 msgstr ""
