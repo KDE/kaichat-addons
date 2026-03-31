@@ -24,10 +24,7 @@ if(0)
             wikipediatoolutils.h
             wikipediatoolutils.cpp
     )
-    target_link_libraries(
-        textautogeneratetext_wikipediatoolplugin
-        KF6::TextAutoGenerateText
-    )
+    target_link_libraries(textautogeneratetext_wikipediatoolplugin KF6::TextAutoGenerateText)
 
     ## TODO add autotests
 endif()
