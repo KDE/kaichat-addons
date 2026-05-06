@@ -1,6 +1,5 @@
 # Translation of kaichat-wikipedia-tool-plugin to Norwegian Nynorsk
 #
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
