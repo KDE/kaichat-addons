@@ -20,58 +20,58 @@ msgstr ""
 
 #: weathertoolplugin.cpp:21
 msgid "The name of the city"
-msgstr ""
+msgstr "城市名称"
 
 #: weathertoolplugin.cpp:27
 msgid "The information that we need"
-msgstr ""
+msgstr "所需信息"
 
 #: weathertoolplugin.cpp:47
 #, kde-format
 msgid "Ask Weather Report"
-msgstr ""
+msgstr "查询天气预报"
 
 #: weathertoolplugin.cpp:52
 #, kde-format
 msgid "Use this tool to get the current weather for a city"
-msgstr ""
+msgstr "使用此工具获取某城市的当前天气"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Weather Tool Plugin"
-msgstr ""
+msgstr "配置天气插件"
 
 #: weathertoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Weather."
-msgstr ""
+msgstr "获取当前天气。"
 
 #: weathertoolpluginjob.cpp:49
 #, kde-format
 msgid "No city found."
-msgstr ""
+msgstr "未找到城市。"
 
 #: weathertoolpluginjob.cpp:99
 #, kde-format
 msgid "The weather is %1"
-msgstr ""
+msgstr "天气为 %1"
 
 #: weathertoolpluginjob.cpp:102
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
-msgstr ""
+msgstr "最低气温 %1°C，最高气温 %2°C 。"
 
 #: weathertoolpluginjob.cpp:105
 #, kde-format
 msgid "The humidity is %1"
-msgstr ""
+msgstr "湿度 %1"
 
 #: weathertoolpluginjob.cpp:108
 #, kde-format
 msgid "The pressure is %1"
-msgstr ""
+msgstr "气压 %1"
 
 #: weathertoolpluginjob.cpp:111
 #, kde-format
 msgid "The uv index is %1"
-msgstr ""
+msgstr "紫外线指数 %1"
