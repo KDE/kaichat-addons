@@ -4,8 +4,8 @@ cmake_minimum_required(VERSION 3.29.0)
 set(KAICHAT-ADDONS_VERSION "0.2")
 project(kaichat-addons VERSION ${KAICHAT-ADDONS_VERSION})
 
-set(QT_REQUIRED_VERSION "6.9.0")
-set(KF_MIN_VERSION "6.19.0")
+set(QT_REQUIRED_VERSION "6.10.0")
+set(KF_MIN_VERSION "6.26.0")
 set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 
 set(ECM_VERSION ${KF_MIN_VERSION})
@@ -87,7 +87,7 @@ include(GenerateExportHeader)
 include(ECMDeprecationSettings)
 include(ECMCheckOutboundLicense)
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.53")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.90")
 
 find_package(
     Qt6
