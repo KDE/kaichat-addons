@@ -29,7 +29,11 @@ void WeatherToolPluginJob::start()
     Q_EMIT toolInProgress(i18n("Get Current Weather."));
     QString city;
     WeatherToolPluginUtils::WeatherEnum weatherInfo = WeatherToolPluginUtils::WeatherEnum::Unknown;
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 1, 44)
+    const QStringList lst = required();
+#else
     const QStringList lst = requiredArguments();
+#endif
     for (const auto &arg : lst) {
         for (const auto &resultTool : std::as_const(mToolArguments)) {
             if (resultTool.keyTool == arg) {
