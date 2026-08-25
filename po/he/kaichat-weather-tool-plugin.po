@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2026-01-15 09:10+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -46,32 +46,32 @@ msgstr "הגדרת כלי תוסף מזג אוויר"
 msgid "Get Current Weather."
 msgstr "משיכת מזג האוויר הנוכחי."
 
-#: weathertoolpluginjob.cpp:49
+#: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
 msgstr "העיר לא נמצאה."
 
-#: weathertoolpluginjob.cpp:99
+#: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
 msgstr "מזג האוויר הוא %1"
 
-#: weathertoolpluginjob.cpp:102
+#: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
 msgstr "הטמפרטורה בין %1°C לבין %2°C."
 
-#: weathertoolpluginjob.cpp:105
+#: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
 msgstr "הלחות היא %1"
 
-#: weathertoolpluginjob.cpp:108
+#: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
 msgstr "הלחץ הוא %1"
 
-#: weathertoolpluginjob.cpp:111
+#: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
 msgstr "מדד קרינת העל־סגול הוא %1"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-wikipedia-tool-plugin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2025-11-21 19:26+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -45,7 +45,7 @@ msgstr "Configurar el complemento de la herramienta de la Wikipedia"
 msgid "Get Wikipedia Page."
 msgstr "Obtener página de la Wikipedia."
 
-#: wikipediatoolpluginjob.cpp:48
+#: wikipediatoolpluginjob.cpp:52
 #, kde-format
 msgid "No title found"
 msgstr "No se ha encontrado el título"

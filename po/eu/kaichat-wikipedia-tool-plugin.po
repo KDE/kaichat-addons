@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2025-12-08 14:56+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -44,7 +44,7 @@ msgstr "Konfiguratu Wikipedia tresnaren plugina"
 msgid "Get Wikipedia Page."
 msgstr "Lortu Wikipedia orrialdea."
 
-#: wikipediatoolpluginjob.cpp:48
+#: wikipediatoolpluginjob.cpp:52
 #, kde-format
 msgid "No title found"
 msgstr "Ez da titulurik aurkitu"

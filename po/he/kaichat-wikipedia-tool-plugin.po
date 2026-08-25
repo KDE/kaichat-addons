@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2025-11-21 12:54+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -42,7 +42,7 @@ msgstr "הגדרת כלי תוסף ויקיפדיה"
 msgid "Get Wikipedia Page."
 msgstr "משיכת עמוד מוויקיפדיה."
 
-#: wikipediatoolpluginjob.cpp:48
+#: wikipediatoolpluginjob.cpp:52
 #, kde-format
 msgid "No title found"
 msgstr "הכותרת לא נמצאה"

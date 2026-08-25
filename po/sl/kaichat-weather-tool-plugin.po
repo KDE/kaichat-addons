@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2026-01-16 06:33+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -46,32 +46,32 @@ msgstr "Konfiguriraj vtičnik Weather Tool"
 msgid "Get Current Weather."
 msgstr "Pridobi trenutno vreme."
 
-#: weathertoolpluginjob.cpp:49
+#: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
 msgstr "Ni najdenega mesta."
 
-#: weathertoolpluginjob.cpp:99
+#: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
 msgstr "Vreme je %1"
 
-#: weathertoolpluginjob.cpp:102
+#: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
 msgstr "Temperatura bo med %1°C in %2°C."
 
-#: weathertoolpluginjob.cpp:105
+#: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
 msgstr "Vlažnost je %1"
 
-#: weathertoolpluginjob.cpp:108
+#: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
 msgstr "Tlak je %1"
 
-#: weathertoolpluginjob.cpp:111
+#: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
 msgstr "UV indeks je %1"

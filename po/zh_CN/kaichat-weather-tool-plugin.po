@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2025-11-22 04:13\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -46,32 +46,32 @@ msgstr "配置天气插件"
 msgid "Get Current Weather."
 msgstr "获取当前天气。"
 
-#: weathertoolpluginjob.cpp:49
+#: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
 msgstr "未找到城市。"
 
-#: weathertoolpluginjob.cpp:99
+#: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
 msgstr "天气为 %1"
 
-#: weathertoolpluginjob.cpp:102
+#: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
 msgstr "最低气温 %1°C，最高气温 %2°C 。"
 
-#: weathertoolpluginjob.cpp:105
+#: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
 msgstr "湿度 %1"
 
-#: weathertoolpluginjob.cpp:108
+#: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
 msgstr "气压 %1"
 
-#: weathertoolpluginjob.cpp:111
+#: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
 msgstr "紫外线指数 %1"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2026-01-17 07:00+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
@@ -43,32 +43,32 @@ msgstr "Configurer le module externe d'outils pour la météo"
 msgid "Get Current Weather."
 msgstr "Obtenir la météo actuelle"
 
-#: weathertoolpluginjob.cpp:49
+#: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
 msgstr "Aucune ville n'a été trouvée."
 
-#: weathertoolpluginjob.cpp:99
+#: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
 msgstr "La météo est %1"
 
-#: weathertoolpluginjob.cpp:102
+#: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
 msgstr "La température se situera entre %1 °C et %2 °C."
 
-#: weathertoolpluginjob.cpp:105
+#: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
 msgstr "L'humidité est de %1."
 
-#: weathertoolpluginjob.cpp:108
+#: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
 msgstr "La pression est de %1."
 
-#: weathertoolpluginjob.cpp:111
+#: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
 msgstr "L'index UV est de %1."

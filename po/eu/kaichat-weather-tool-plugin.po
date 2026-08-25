@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
 "PO-Revision-Date: 2026-01-24 13:46+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -48,32 +48,32 @@ msgstr "Konfiguratu Eguraldi tresnaren plugina"
 msgid "Get Current Weather."
 msgstr "Lortu uneko eguraldia."
 
-#: weathertoolpluginjob.cpp:49
+#: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
 msgstr "Ez da hiririk aurkitu."
 
-#: weathertoolpluginjob.cpp:99
+#: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
 msgstr "Eguraldia %1 da"
 
-#: weathertoolpluginjob.cpp:102
+#: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
 msgstr "Tenperatura %1°C eta %2°C artekoa izango da."
 
-#: weathertoolpluginjob.cpp:105
+#: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
 msgstr "Hezetasuna %1(e)koa da"
 
-#: weathertoolpluginjob.cpp:108
+#: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
 msgstr "Presioa %1(e)koa da"
 
-#: weathertoolpluginjob.cpp:111
+#: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
 msgstr "UV indizea %1 da"

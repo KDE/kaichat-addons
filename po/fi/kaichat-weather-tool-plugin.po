@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat-addons package.
-# SPDX-FileCopyrightText: 2025 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2025, 2026 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-31 00:48+0000\n"
-"PO-Revision-Date: 2025-12-05 18:17+0200\n"
+"POT-Creation-Date: 2026-08-25 00:49+0000\n"
+"PO-Revision-Date: 2026-02-25 14:02+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -33,7 +33,7 @@ msgstr "Pyydä säätiedotusta"
 #: weathertoolplugin.cpp:52
 #, kde-format
 msgid "Use this tool to get the current weather for a city"
-msgstr ""
+msgstr "Tällä työkalulla saa kaupungin nykyisen sään"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
@@ -45,32 +45,32 @@ msgstr "Säätyökaluliitännäisen asetukset"
 msgid "Get Current Weather."
 msgstr "Katso tämänhetkinen sää."
 
-#: weathertoolpluginjob.cpp:49
+#: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
 msgstr "Kaupunkia ei löytynyt."
 
-#: weathertoolpluginjob.cpp:99
+#: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
 msgstr "Sää on %1"
 
-#: weathertoolpluginjob.cpp:102
+#: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
 msgstr "Lämpötila on välillä %1–%2 °C."
 
-#: weathertoolpluginjob.cpp:105
+#: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
 msgstr "Kosteus on %1"
 
-#: weathertoolpluginjob.cpp:108
+#: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
 msgstr "Ilmanpaine on %1"
 
-#: weathertoolpluginjob.cpp:111
+#: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
 msgstr "UV-taso on %1"
