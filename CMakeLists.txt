@@ -133,6 +133,14 @@ endif()
 
 option(ENABLE_PCH "Enable Precompiled Headers support" ON)
 
+option(USE_MOLD_LINKER "Use the mold linker when available (much faster link times)" ON)
+if(USE_MOLD_LINKER AND NOT DEFINED CMAKE_LINKER_TYPE)
+    find_program(MOLD_EXECUTABLE mold)
+    if(MOLD_EXECUTABLE)
+        set(CMAKE_LINKER_TYPE MOLD)
+    endif()
+endif()
+
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
