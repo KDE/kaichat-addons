@@ -131,6 +131,8 @@ if(BUILD_TESTING)
     add_definitions(-DBUILD_TESTING)
 endif()
 
+option(ENABLE_PCH "Enable Precompiled Headers support" ON)
+
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
