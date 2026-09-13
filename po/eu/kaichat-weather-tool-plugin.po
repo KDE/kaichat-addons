@@ -1,16 +1,23 @@
 # Translation for kaichat-weather-tool-plugin.po to Euskara/Basque (eu).
 # Copyright (C) 2025-2026 This file is copyright:
 # This file is distributed under the same license as the kaichat-addons package.
-# SPDX-FileCopyrightText: 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2026 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
 # SPDX-FileCopyrightText: Iñigo Salvador Azurmendi <xalba@ni.eus>, 2025, 2026.
+#
+# Egoera:
+# Proiektu osoaren berrikuspen integrala: 2026-09-12
+# Azken berrikuspena: 2026-09-12.
+# Terminologia, estiloa, ortotipografia, kohesioa eta koherentzia berrikusi dira.
+# Erreferentzia-gida: kde-aa-eta-hizkuntza-ereduen_eu_itzulpen_gida.md
+# Ikus, halaber: KDE-eu-berrikuspen-integralen-erregistroa.md
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-25 00:49+0000\n"
-"PO-Revision-Date: 2026-01-24 13:46+0100\n"
+"PO-Revision-Date: 2026-09-12 23:10+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 26.08.0\n"
 
 #: weathertoolplugin.cpp:21
 msgid "The name of the city"
@@ -31,22 +38,22 @@ msgstr "Behar dugun informazioa"
 #: weathertoolplugin.cpp:47
 #, kde-format
 msgid "Ask Weather Report"
-msgstr "Eskatu eguraldi txostena"
+msgstr "Eguraldi-txostena eskatu"
 
 #: weathertoolplugin.cpp:52
 #, kde-format
 msgid "Use this tool to get the current weather for a city"
-msgstr "Erabili tresna hau hiri bateko uneko eguraldia lortzeko"
+msgstr "Tresna hau hiri bateko uneko eguraldia lortzeko erabili"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Weather Tool Plugin"
-msgstr "Konfiguratu Eguraldi tresnaren plugina"
+msgstr "Eguraldirako tresna-plugina konfiguratu"
 
 #: weathertoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Weather."
-msgstr "Lortu uneko eguraldia."
+msgstr "Uneko eguraldia lortu."
 
 #: weathertoolpluginjob.cpp:53
 #, kde-format
@@ -66,12 +73,12 @@ msgstr "Tenperatura %1°C eta %2°C artekoa izango da."
 #: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
-msgstr "Hezetasuna %1(e)koa da"
+msgstr "Hezetasuna %1 da"
 
 #: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
-msgstr "Presioa %1(e)koa da"
+msgstr "Presioa %1 da"
 
 #: weathertoolpluginjob.cpp:115
 #, kde-format
