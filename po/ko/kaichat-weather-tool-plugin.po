@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-25 00:49+0000\n"
-"PO-Revision-Date: 2026-06-06 15:05+0200\n"
+"PO-Revision-Date: 2026-10-03 23:09+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -23,54 +23,54 @@ msgstr "도시 이름"
 
 #: weathertoolplugin.cpp:27
 msgid "The information that we need"
-msgstr ""
+msgstr "필요한 정보"
 
 #: weathertoolplugin.cpp:47
 #, kde-format
 msgid "Ask Weather Report"
-msgstr ""
+msgstr "일기 예보 묻기"
 
 #: weathertoolplugin.cpp:52
 #, kde-format
 msgid "Use this tool to get the current weather for a city"
-msgstr ""
+msgstr "이 도구를 사용하여 도시의 현재 날씨 가져오기"
 
 #: weathertoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Weather Tool Plugin"
-msgstr ""
+msgstr "날씨 도구 플러그인 설정"
 
 #: weathertoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Weather."
-msgstr ""
+msgstr "현재 날씨를 가져옵니다."
 
 #: weathertoolpluginjob.cpp:53
 #, kde-format
 msgid "No city found."
-msgstr ""
+msgstr "도시를 찾을 수 없습니다."
 
 #: weathertoolpluginjob.cpp:103
 #, kde-format
 msgid "The weather is %1"
-msgstr ""
+msgstr "현재 날씨는 %1입니다"
 
 #: weathertoolpluginjob.cpp:106
 #, kde-format
 msgid "The temperature will be between %1°C and %2°C."
-msgstr ""
+msgstr "온도는 %1°C에서 %2°C 사이입니다."
 
 #: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
-msgstr ""
+msgstr "습도는 %1입니다"
 
 #: weathertoolpluginjob.cpp:112
 #, kde-format
 msgid "The pressure is %1"
-msgstr ""
+msgstr "기압은 %1입니다"
 
 #: weathertoolpluginjob.cpp:115
 #, kde-format
 msgid "The uv index is %1"
-msgstr ""
+msgstr "자외선 지수는 %1입니다"
