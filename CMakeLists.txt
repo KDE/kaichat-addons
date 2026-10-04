@@ -1,11 +1,11 @@
 # SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 cmake_minimum_required(VERSION 3.29.0)
-set(KAICHAT-ADDONS_VERSION "0.2")
+set(KAICHAT-ADDONS_VERSION "0.3")
 project(kaichat-addons VERSION ${KAICHAT-ADDONS_VERSION})
 
 set(QT_REQUIRED_VERSION "6.10.0")
-set(KF_MIN_VERSION "6.26.0")
+set(KF_MIN_VERSION "6.29.0")
 set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 
 set(ECM_VERSION ${KF_MIN_VERSION})
@@ -87,7 +87,7 @@ include(GenerateExportHeader)
 include(ECMDeprecationSettings)
 include(ECMCheckOutboundLicense)
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.90")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.2.0")
 
 find_package(
     Qt6
@@ -122,8 +122,8 @@ set_package_properties(
 
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
-ecm_set_disabled_deprecation_versions(QT 6.12.0
-    KF 6.27.0
+ecm_set_disabled_deprecation_versions(QT 6.13.0
+    KF 6.30.0
 )
 
 if(BUILD_TESTING)
