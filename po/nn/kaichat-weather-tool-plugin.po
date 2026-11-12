@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-25 00:49+0000\n"
-"PO-Revision-Date: 2026-08-02 10:45+0200\n"
+"PO-Revision-Date: 2026-11-10 18:17+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@nuug.no>\n"
 "Language: nn\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.11.70\n"
+"X-Generator: Lokalize 26.08.3\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -67,7 +67,7 @@ msgstr "Temperaturen vil vera mellom %1 °C og %2 °C."
 #: weathertoolpluginjob.cpp:109
 #, kde-format
 msgid "The humidity is %1"
-msgstr "Luftafukta er %1"
+msgstr "Luftfukta er %1"
 
 #: weathertoolpluginjob.cpp:112
 #, kde-format
