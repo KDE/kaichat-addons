@@ -87,7 +87,7 @@ include(GenerateExportHeader)
 include(ECMDeprecationSettings)
 include(ECMCheckOutboundLicense)
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.2.0")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.3.0")
 
 find_package(
     Qt6
@@ -123,7 +123,7 @@ set_package_properties(
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.13.0
-    KF 6.30.0
+    KF 6.32.0
 )
 
 if(BUILD_TESTING)
