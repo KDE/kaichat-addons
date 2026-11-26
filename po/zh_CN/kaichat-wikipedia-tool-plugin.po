@@ -20,29 +20,29 @@ msgstr ""
 
 #: wikipediatoolplugin.cpp:21
 msgid "The name of wikipedia title."
-msgstr "wikipedia 标题名称。"
+msgstr "维基百科页面标题名称。"
 
 #: wikipediatoolplugin.cpp:32
 #, kde-format
 msgid "Ask Wikipedia Page from Title"
-msgstr "根据标题查询 Wikipedia 页面"
+msgstr "根据标题查询维基百科页面"
 
 #: wikipediatoolplugin.cpp:37
 #, kde-format
 msgid "Use this tools for getting wikipedia page from title."
-msgstr "使用此工具依据标题获取 Wikipedia 页面。"
+msgstr "使用此工具根据标题获取维基百科页面。"
 
 #: wikipediatoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Wikipedia Tool Plugin"
-msgstr "配置 Wikipedia 插件"
+msgstr "配置维基百科工具插件"
 
 #: wikipediatoolpluginjob.cpp:31
 #, kde-format
 msgid "Get Wikipedia Page."
-msgstr "获取 Wikipedia 页面"
+msgstr "获取维基百科页面。"
 
 #: wikipediatoolpluginjob.cpp:52
 #, kde-format
 msgid "No title found"
-msgstr "未找到内容"
+msgstr "没有找到标题"
